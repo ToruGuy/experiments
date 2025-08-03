@@ -44,7 +44,7 @@ python search_component.py <topic> [--depth <max_depth>] [--window <hours>] [--o
 **Example:**
 
 ```bash
-python search_component.py "Polish stock market" --depth 3 --window 72 --limit 15
+python search_component.py "AI news, big tech, stock market, polish news" --depth 3 --window 72 --limit 15
 ```
 
 ## How It Works
