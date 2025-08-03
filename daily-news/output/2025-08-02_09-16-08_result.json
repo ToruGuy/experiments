@@ -1,0 +1,191 @@
+{
+  "run_id": "2025-08-02",
+  "items": [
+    {
+      "item_id": "2025-08-02-fe07c8190a",
+      "title": "AI's spend cycle",
+      "url": "https://www.axios.com/newsletters/axios-ai-plus-efcf11cf-d66b-453c-9d1f-d50774376983",
+      "source": "axios",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "The August 1, 2025 edition of Axios AI+ covers the intensifying AI spend cycle, focusing on massive investments by major tech firms. OpenAI has raised $8.3 billion at a $300 billion valuation, with growing annual recurring revenue of $13 billion and 5 million business subscribers for ChatGPT. Tech giants like Microsoft, Google, Meta, and Apple are reinvesting AI revenues into infrastructure, driving Nvidia's market value to $4 trillion. Microsoft alone plans $100 billion in capital expenses next year, mostly AI-driven. Despite strong earnings from some companies, investor skepticism remains, especially with Amazon’s AI strategy.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-a28fca0430",
+      "title": "Alphabet's CapitalG, Nvidia in talks to fund Vast Data at up to $30 billion valuation, sources say",
+      "url": "https://www.reuters.com/business/alphabets-capitalg-nvidia-talks-fund-vast-data-up-30-billion-valuation-sources-2025-08-01/",
+      "source": "reuters",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "Alphabet's growth-stage venture arm CapitalG and Nvidia are reportedly in talks to invest in Vast Data, a startup specializing in AI infrastructure, in a funding round that could value the company at up to $30 billion. This substantial investment round, which includes tech giants, private equity, and venture capital firms, highlights the increasing value of data infrastructure providers amid the AI boom. Vast Data, headquartered in New York, offers storage technology tailored for AI data centers, facilitating efficient data transfer between GPUs such as those made by Nvidia. Its clients include xAI and CoreWeave.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-d56913d567",
+      "title": "Big Tech's AI spend is still a shot in the dark",
+      "url": "https://www.ft.com/content/7fea95f3-64dd-498d-bf6a-e01d0523b3d4",
+      "source": "financial times",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "As of mid-2025, Big Tech companies such as Meta and Microsoft are investing billions into generative AI, but the return on this investment remains uncertain. Though both firms posted strong earnings, these gains are largely unrelated to generative AI. Meta’s current AI advancements are mainly in traditional models improving ad targeting and content personalization, not generative AI. Nevertheless, CEO Mark Zuckerberg remains optimistic, planning a $100 billion investment in 2026 with an eye toward \"personal superintelligence\" for users—but acknowledges little near-term revenue impact.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-4b84bee717",
+      "title": "Robinhood CEO: Human traders are safe from AI",
+      "url": "https://www.axios.com/2025/08/01/ai-robinhood-anthropic-openai-traders",
+      "source": "axios",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "Robinhood CEO Vlad Tenev has expressed confidence that human traders will not be replaced by AI in the near future, despite widespread concerns about artificial intelligence disrupting white-collar jobs. Speaking to Axios, Tenev emphasized that trading remains a deeply human activity that people enjoy, suggesting that human decision-making will continue to play a central role in the financial sector.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-ec5d3b8a1e",
+      "title": "McDonald's plans to 'double down' on AI investment by 2027, senior exec says",
+      "url": "https://www.reuters.com/business/mcdonalds-plans-double-down-ai-investment-by-2027-senior-exec-says-2025-08-01/",
+      "source": "reuters",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "McDonald's plans to significantly increase its investment in artificial intelligence (AI) by 2027, focusing on expanding its capabilities in data governance, engineering, and platform architecture, particularly in India. Deshant Kaila, the company’s head of Global Business Services operations, stated that while precise investment figures are not yet defined due to the early stage of the initiative, the primary expenditure will be directed toward technology and tools rather than expanding staff. The strategy underscores McDonald’s commitment to leveraging AI for business transformation and identifies India as a strategic hub for developing its AI infrastructure.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-7e339f0b3e",
+      "title": "Will AI put fiction writers out of work?",
+      "url": "https://www.ft.com/content/7ce8a0c4-f806-44e4-96f5-8cae8772c97c",
+      "source": "financial times",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "The growing influence of AI in creative industries has sparked controversy, particularly in literature. A prediction by Philip Stone from Nielsen that AI might produce a bestseller by 2030 stirred backlash in the UK publishing scene. Though Stone's comment was about simple formats like coloring or joke books, many feared broader implications for fiction writers. Concerns stem from AI models having been trained on authors' works without consent, and fears AI-generated text could replace human fiction.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-462a8dc0e6",
+      "title": "Open-source AI narrows gap with proprietary leaders, new benchmark reveals",
+      "url": "https://venturebeat.com/ai/open-source-ai-narrows-gap-with-tech-giants-new-benchmark-reveals/",
+      "source": "venturebeat",
+      "source_quality": "low",
+      "published_at": "2025-07-28",
+      "snippet": "A comprehensive benchmark by Galileo shows open-source language models rapidly closing the performance gap with proprietary counterparts, potentially reshaping the AI landscape and accelerating innovation across industries.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": [
+        "hype",
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-77a3c51aab",
+      "title": "AI Supremacy - OpenAI's new 03 model achieved a breakthrough score of 87.5% on the ARC-AGI benchmark, significantly surpassing previous models and even human-level performance.",
+      "url": "https://www.judgy.ai/newsletter/24938/ai-supremacy/openai-s-new-03-model-achieved-a-breakthrough-score-of-87-5percent-on-the-arc-agi-benchmark-significantly-surpassing-previous-models-and-even-human-level-performance",
+      "source": "judgy ai",
+      "source_quality": "low",
+      "published_at": "2025-07-28",
+      "snippet": "OpenAI's latest 03 model achieved a breakthrough score of 87.5% on the ARC-AGI benchmark, significantly surpassing previous models and even human-level performance, marking a significant advancement in AI capabilities.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": [
+        "hype",
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-2565f2a27f",
+      "title": "Shadowy AI Race",
+      "url": "https://www.axios.com/newsletters/axios-am-03304ed9-9945-4c8c-a9a3-038999df0874",
+      "source": "axios",
+      "source_quality": "low",
+      "published_at": "2025-07-27",
+      "snippet": "This edition of Axios AM covers several major global and national developments as of July 27, 2025. The headline story addresses the opaque nature of the U.S.-China artificial intelligence (AI) race, now actively supported by President Trump. Despite massive investments and political backing, the race lacks clear objectives or long-term benefits, echoing past precedents like the nuclear arms and space races. The U.S. emphasizes \"freedom-driven\" AI, framed against China’s government-controlled approach, though critics argue Trump's own political interventions in AI undercut this narrative.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": [
+        "hype",
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-735bc896ad",
+      "title": "AI's global race in the dark",
+      "url": "https://www.axios.com/2025/07/27/trump-ai-race-china",
+      "source": "axios",
+      "source_quality": "low",
+      "published_at": "2025-07-27",
+      "snippet": "The article \"AI's global race in the dark\" discusses the intensifying competition between the U.S. and China over artificial intelligence (AI) advancement, a race recently reinvigorated by President Trump during his second term. Despite echoes of past scientific rivalries like the nuclear arms race and the space race, this AI competition lacks clear goals, a defined finish line, or a guaranteed payoff. Both Silicon Valley and the U.S. government are committing billions of dollars to support a technology that is still prone to errors, consumes vast energy, and has uncertain economic impacts and business prospects.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    }
+  ],
+  "log": [
+    {
+      "topic": "AI news",
+      "topic_id": "c380242219",
+      "depth": 1,
+      "plan": {
+        "queries": [
+          "AI news latest news past 48 hours",
+          "AI news announcement OR launch OR unveils past 3 days",
+          "AI news breakthrough OR benchmark OR SOTA past week",
+          "AI news report OR analysis OR deep dive past week",
+          "AI news GitHub release OR repo trending past week"
+        ],
+        "rationale": "broad-first",
+        "expected_signals": []
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "Preview items suggest investment momentum and spending uncertainty, but lack concrete, novel developments within the last 48 hours (e.g., confirmed deals, major model launches, regulatory actions). Headlines are broad and opinion-heavy; need verification of any finalized funding, partnerships, or product releases.",
+        "next_focus": [
+          "Confirm any finalized funding/valuation events: Vast Data, other infra vendors (storage, networking, inference orchestration) with Nvidia/CapitalG participation in last 48 hours.",
+          "Check for major model or product launches and pricing changes from OpenAI, Anthropic, Google, Meta, xAI, Apple in the last 48 hours (APIs, on‑device, inference costs).",
+          "Scan for regulatory/enforcement moves affecting AI (EU AI Act implementation steps, FTC/DOJ actions, IP lawsuits settlements) announced in last 48 hours."
+        ]
+      },
+      "found_raw": 29,
+      "kept": 11,
+      "dropped_old": 17,
+      "dropped_src": 0,
+      "ts": "2025-08-02T09:16:08"
+    }
+  ],
+  "summary": {
+    "topics": [
+      "AI news",
+      "big tech",
+      "stock market - polish",
+      "best picks to buy stocks"
+    ],
+    "window": "last 48 hours",
+    "max_depth": 3,
+    "count": 10
+  }
+}

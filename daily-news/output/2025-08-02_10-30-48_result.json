@@ -1,0 +1,720 @@
+{
+  "run_id": "2025-08-02",
+  "items": [
+    {
+      "item_id": "2025-08-02-a5dccd2746",
+      "title": "Oświadczenie Narodowego Banku Polskiego",
+      "url": "https://nbp.pl/oswiadczenie-narodowego-banku-polskiego/",
+      "source": "nbp.pl",
+      "source_quality": "high",
+      "published_at": "2025-08-01",
+      "snippet": "Szanowni Państwo, prawidłowo funkcjonujący bank centralny powinien być niezależny od rządu i parlamentu. Całkowicie niezależny od rządu i parlamentu. W świetle cyklicznie publikowanych raportów Komisji Europejskiej oraz Europejskiego Banku Centralnego o Konwergencji, ustawa z dnia 26 marca 1982 r. o Trybunale Stanu nie jest zgodna ze wszystkimi wymaganiami dotyczącymi niezależności banku centralnego i jego organów. Znalazło to także wyraz w wyroku Trybunału Konstytucyjnego z dnia 11 stycznia 2024 r., a także w ostatnim wyroku z dnia 20 sierpnia 2024 r. Zgodnie z art. 190 ust. 1 Konstytucji RP orzeczenia te mają moc powszechnie obowiązującą i są ostateczne. W komunikacie po wydaniu wyroku z dnia 20 sierpnia 2024 r. Trybunał podkreślil, że konstytucyjna zasada niezależności Narodowego Banku Polskiego i jego organów wyklucza możliwość nadawania ciałom o charakterze politycznym, np. komisjom sejmowym, uprawnień, które mogłyby stanowić środek nacisku na bank centralny. Realizacja ustawowych uprawnień Komisji Odpowiedzialności Konstytucyjnej w stosunku do Prezesa Narodowego Banku Polskiego oraz pracowników tego Banku, może sparaliżować prace tego banku. Jednocześnie Trybunał Konstytucyjny wyjaśnił, że stwierdzenie niekonstytucyjności zaskarżonych przepisów powoduje, że wszystkie postępowania prowadzone na ich podstawie tracą podstawę prawną. Wskazane orzeczenia nie są jednak – jak widać – przestrzegane przez organy Sejmu RP. Dodatkowo, w świetle analiz Kancelarii Sejmu przygotowanych na polecenie Marszałka Szymona Hołowni, wstępny wniosek zawiera uchybienia formalne, a mimo wszystko sprawie został nadany dalszy bieg.",
+      "topic": "stock market - polish",
+      "depth": 2,
+      "tags": [
+        "primary"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-20b6fff5ad",
+      "title": "Afera melioracyjna. Stanisław Gawłowski skazany",
+      "url": "https://www.bankier.pl/wiadomosc/Afera-melioracyjna-Stanislaw-Gawlowski-skazany-8080130.html",
+      "source": "bankier.pl",
+      "source_quality": "high",
+      "published_at": "2025-07-31 13:02",
+      "snippet": "Sąd Okręgowy w Szczecinie skazał senatora Stanisława Gawłowskiego na 5 lat więzienia w tzw. aferze melioracyjnej. Został uznany winnym m.in. przyjęcia łapówek. Sąd orzekł mu też m.in. karę 180 tys. zł grzywny i zakazał zajmowania kierowniczych...",
+      "topic": "stock market - polish",
+      "depth": 3,
+      "tags": [
+        "primary"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-d0af980bc9",
+      "title": "Krótka sprzedaż - nowe regulacje",
+      "url": "https://www.bankier.pl/wiadomosc/Krotka-sprzedaz-nowe-regulacje-2126727.html",
+      "source": "bankier.pl",
+      "source_quality": "high",
+      "published_at": "2025-08-02",
+      "snippet": "Komisja Nadzoru Finansowego zatwierdziła zmiany w Regulaminie Krajowego Depozytu, które pozwolą na zawieranie transakcji krótkiej sprzedaży w nowej formule. Wprowadzono zasady ograniczające możliwości zawierania transakcji krótkiej sprzedaży oraz stosowanie środków dyscyplinujących dla domów maklerskich, które przekraczają dopuszczalne wskaźniki poziomu zawieszeń rozliczeń papierów wartościowych.",
+      "topic": "stock market - polish",
+      "depth": 3,
+      "tags": [
+        "primary"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-bcf0e2d85e",
+      "title": "Donald Trump's tariffs send global stocks lower as markets weigh impact",
+      "url": "https://www.ft.com/content/c97c4b6d-da22-4ff3-a4c1-43435c05d56a",
+      "source": "financial times",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "Global stock markets declined on Friday, August 1, 2025, following the U.S.'s announcement of new trade tariffs under President Donald Trump. The S&P 500 and Nasdaq Composite dropped by 1.7% and 1.9%, respectively, with Amazon shares falling sharply by 7.9% due to weak earnings. European markets also reacted negatively, with Germany's DAX falling 2.7% and France's CAC 40 down 2.9%. The wider Stoxx 600 index dipped 1.9% as investors reassessed the impact of renewed trade tensions. The tariffs, some tougher than anticipated—particularly for Switzerland—sparked concern about global trade disruption. Analysts indicated that markets, which had recently surged on strong tech earnings and optimism around trade deals, were undergoing a \"reality check\" and experiencing healthy profit-taking ahead of the summer. Despite economic optimism earlier, weaker-than-expected U.S. jobs data led to a rally in government bonds, prompting speculation that the Federal Reserve may cut interest rates sooner. Yields on U.S. Treasury bonds dropped significantly, and similar moves were observed in UK and German bond markets.",
+      "topic": "big tech",
+      "depth": 1,
+      "tags": [
+        "hype",
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-a28fca0430",
+      "title": "Alphabet's CapitalG, Nvidia in talks to fund Vast Data at up to $30 billion valuation, sources say",
+      "url": "https://www.reuters.com/business/alphabets-capitalg-nvidia-talks-fund-vast-data-up-30-billion-valuation-sources-2025-08-01/",
+      "source": "reuters",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "Alphabet's growth-stage venture arm CapitalG and Nvidia are reportedly in talks to invest in Vast Data, a startup specializing in AI infrastructure, in a funding round that could value the company at up to $30 billion. This substantial investment round, which includes tech giants, private equity, and venture capital firms, highlights the increasing value of data infrastructure providers amid the AI boom. Vast Data, headquartered in New York, offers storage technology tailored for AI data centers, facilitating efficient data transfer between GPUs such as those made by Nvidia. Its clients include xAI and CoreWeave. The company, which had earned $200 million in annual recurring revenue by early 2025 and is projecting $600 million for the next year, is also reportedly free cash flow positive. It has raised approximately $380 million to date and was last valued at $9.1 billion in 2023. Analysts view Vast Data as a strong IPO candidate; the hiring of former Shopify CFO Amy Shapero suggests potential IPO preparations. Meanwhile, Nvidia, a potential investor, has been expanding through acquisitions to bolster its AI ecosystem, including firms like Mellanox and Run:ai. Industry experts say Vast Data's technology is more advanced compared to its rivals.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-7e339f0b3e",
+      "title": "Will AI put fiction writers out of work?",
+      "url": "https://www.ft.com/content/7ce8a0c4-f806-44e4-96f5-8cae8772c97c",
+      "source": "financial times",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "The growing influence of AI in creative industries has sparked controversy, particularly in literature. A prediction by Philip Stone from Nielsen that AI might produce a bestseller by 2030 stirred backlash in the UK publishing scene. Though Stone's comment was about simple formats like coloring or joke books, many feared broader implications for fiction writers. Concerns stem from AI models having been trained on authors' works without consent, and fears AI-generated text could replace human fiction. Many prominent authors argue that AI lacks the emotional depth and unique perspective necessary for storytelling. Writers like Naomi Alderman and Sarah Hall criticize the UK government's weak regulatory framework, which permits AI firms access to creative works unless opted out. They emphasize that fiction is rooted in human experience, which AI cannot replicate. Some authors experimented with AI writing, finding the results lacking in character and emotional resonance. While AI may be capable of generating formulaic genre fiction, it still cannot produce complex, original narratives or memoirs. In response, authors are advocating for labeling human-written content to preserve authenticity. Though AI-generated books exist, human storytelling—deep, unpredictable, and emotionally rich—remains irreplaceable, at least for now.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-4b84bee717",
+      "title": "Robinhood CEO: Human traders are safe from AI",
+      "url": "https://www.axios.com/2025/08/01/ai-robinhood-anthropic-openai-traders",
+      "source": "axios",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "Robinhood CEO Vlad Tenev has expressed confidence that human traders will not be replaced by AI in the near future, despite widespread concerns about artificial intelligence disrupting white-collar jobs. Speaking to Axios, Tenev emphasized that trading remains a deeply human activity that people enjoy, suggesting that human decision-making will continue to play a central role in the financial sector. His remarks come as AI companies increasingly target financial services as a key area for automation. However, industry voices like George Sivulka, CEO of AI finance platform Hebbia, note that successful analysts are often those who leverage AI tools to gain a competitive edge, rather than being replaced by them. Robinhood, which already integrates AI in its investor services, sees a future where human insight and AI-driven tools coexist, potentially shaping the next evolution of investing without removing the human element.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-ec5d3b8a1e",
+      "title": "McDonald's plans to 'double down' on AI investment by 2027, senior exec says",
+      "url": "https://www.reuters.com/business/mcdonalds-plans-double-down-ai-investment-by-2027-senior-exec-says-2025-08-01/",
+      "source": "reuters",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "McDonald's plans to significantly increase its investment in artificial intelligence (AI) by 2027, focusing on expanding its capabilities in data governance, engineering, and platform architecture, particularly in India. Deshant Kaila, the company’s head of Global Business Services operations, stated that while precise investment figures are not yet defined due to the early stage of the initiative, the primary expenditure will be directed toward technology and tools rather than expanding staff. The strategy underscores McDonald’s commitment to leveraging AI for business transformation and identifies India as a strategic hub for developing its AI infrastructure.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-cf2edba635",
+      "title": "Big Tech's acquihire deals face regulatory scrutiny, outgoing EU antitrust official says",
+      "url": "https://www.reuters.com/sustainability/boards-policy-regulation/big-techs-acquihire-deals-face-regulatory-scrutiny-outgoing-eu-antitrust-2025-08-01/",
+      "source": "reuters",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "The outgoing head of the European Commission's antitrust unit, Olivier Guersent, stated that Big Tech's \"acquihire\" strategies—where tech giants hire key personnel from startups instead of acquiring the companies—are coming under increasing regulatory scrutiny. These maneuvers have largely avoided merger regulations, but Guersent emphasized that hiring staff, especially founders and senior executives, can constitute a merger since staff form part of a company’s assets. He highlighted several examples, including Microsoft’s $650 million deal to hire most of AI startup Inflection’s staff, Google’s hiring from Character.AI and Windsurf, Amazon’s acquisition of AI firm Adept’s team, and Meta’s recruitment of Scale AI’s CEO. To tighten oversight, Guersent mentioned the European Commission's efforts to encourage member states with \"call-in powers\" to refer such below-threshold deals to EU regulators. Countries like Denmark, Italy, and Ireland are among those capable of doing this. Guersent, a key architect of the EU’s Digital Markets Act aimed at limiting Big Tech dominance, acknowledged the Act's progress but noted that full success remains a work in progress.",
+      "topic": "big tech",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-89f153639d",
+      "title": "Polish (WIG) Market Analysis & Valuation - Updated Today",
+      "url": "https://simplywall.st/markets/pl",
+      "source": "simply wall st",
+      "source_quality": "low",
+      "published_at": "2025-08-02",
+      "snippet": "The WIG20 index, representing the top 20 companies listed on the Warsaw Stock Exchange (WSE), exhibits a financial outlook that is closely tied to the economic health of Poland and the broader European Union. Poland's economic growth trajectory, influenced by factors such as domestic consumption, investment, and international trade, significantly shapes the performance of WIG20 constituents.",
+      "topic": "stock market - polish",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-fe07c8190a",
+      "title": "AI's spend cycle",
+      "url": "https://www.axios.com/newsletters/axios-ai-plus-efcf11cf-d66b-453c-9d1f-d50774376983",
+      "source": "axios",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "The August 1, 2025 edition of Axios AI+ covers the intensifying AI spend cycle, focusing on massive investments by major tech firms. OpenAI has raised $8.3 billion at a $300 billion valuation, with growing annual recurring revenue of $13 billion and 5 million business subscribers for ChatGPT. Tech giants like Microsoft, Google, Meta, and Apple are reinvesting AI revenues into infrastructure, driving Nvidia's market value to $4 trillion. Microsoft alone plans $100 billion in capital expenses next year, mostly AI-driven. Despite strong earnings from some companies, investor skepticism remains, especially with Amazon’s AI strategy. A secondary focus is corporate data leakage via generative AI tools. According to Harmonic Security, 4.4% of AI prompts and 22% of uploaded files contained sensitive corporate data in Q2 2025. Many employees use AI tools without policy oversight, exposing proprietary information through services like ChatGPT, Claude, and Canva. Also, Apple beat revenue and earnings forecasts thanks to strong iPhone sales and early purchases due to anticipated tariffs, though it faces political pressure over production location. Additional notes include OpenAI removing public conversation sharing, the Gemini 2.5 Deep Think release, Figma’s IPO success, and a sea mammal rescue highlight.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-17dd7d06ce",
+      "title": "Investors glimpse pay-off for Big Tech's mammoth spending on AI arms race",
+      "url": "https://www.ft.com/content/6da2e1fd-f606-4e82-ad74-acecfceeac4e",
+      "source": "financial times",
+      "source_quality": "low",
+      "published_at": "2025-07-31",
+      "snippet": "Big Tech companies are beginning to realize returns on their substantial investments in artificial intelligence (AI), leading to a surge in investor confidence and market valuations. Microsoft, Alphabet, and Meta collectively added over $350 billion in market value, with Microsoft hitting a $4 trillion valuation and Meta nearing $2 trillion. Strong growth in cloud computing and advertising efficiency, attributed to AI innovations, has justified continued high capital expenditures, projected to exceed $400 billion in 2026. Microsoft plans to invest $120 billion in the coming year to expand its data center capacity, while Meta announced a $105 billion capex for a massive new facility in Louisiana and is aggressively hiring for its AI lab. Investors are now more receptive to AI-related spending, especially as companies demonstrate profitability from the technology. However, Amazon lagged, with its stock falling 7% due to slower AWS growth despite high spending. Apple showed resilience in iPhone sales and promised further AI investment, though its stock remained flat amid geopolitical risks. Antitrust challenges remain a significant threat, particularly for Alphabet, which faces potential divestitures.",
+      "topic": "big tech",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-3faca92cd0",
+      "title": "Microsoft's in the $4 trillion club: Why Big Tech may have a problem.",
+      "url": "https://www.axios.com/2025/07/31/microsoft-amazon-apple-big-tech",
+      "source": "axios",
+      "source_quality": "low",
+      "published_at": "2025-07-31",
+      "snippet": "As of July 2025, Microsoft has joined the exclusive $4 trillion market valuation club, alongside Nvidia, placing it among the top tech giants by market cap. Other major companies from the “Magnificent 7” — including Apple, Amazon, Alphabet, and Meta — are closing in on this milestone. This surge in valuation, driven by booming AI-related growth and strong earnings (particularly from Microsoft and Meta), is raising concerns among investors. Some analysts warn that Microsoft's high valuation—trading at 40 times forward earnings—may be unsustainable, and that such inflated stocks are typically vulnerable during market downturns. Despite these concerns, investor enthusiasm remains strong, continuing to push valuations higher. The article underlines the increasing tension between rapid tech growth and the risks posed by soaring market caps approaching the scale of global economies.",
+      "topic": "big tech",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-8a90c34189",
+      "title": "Polish stocks enjoy big gatherings as investors seek shelter from the trade war",
+      "url": "https://benchmarkbeat.com/markets/us/polish-stocks-enjoy-big-gatherings-as-investors-seek-shelter-from-the-trade-war/",
+      "source": "benchmark beat",
+      "source_quality": "low",
+      "published_at": "2025-07-31",
+      "snippet": "Polish stock markets have emerged as one of the world’s top performance bruises this year, and were helped by a relatively insulated position from the World Trade War and an expected boost from the neighbouring German fiscal “bazooka.”",
+      "topic": "stock market - polish",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-7da9a6a5e0",
+      "title": "Top Shares to Buy Today: Expert Stock Picks – Kenneth Keith's Blog",
+      "url": "https://bykennethkeith.com/top-shares-to-buy-today-expert-stock-picks/",
+      "source": "kenneth keith's blog",
+      "source_quality": "low",
+      "published_at": "2025-07-30",
+      "snippet": "Bank of America has shared its top stock picks for the quarter, despite the market’s ups and downs. They highlight stocks like Spotify Technology S.A. (SPOT), The Progressive Corporation (PGR), and Alphabet, Inc. (GOOG, GOOGL). These stocks stand out for their growth potential and unique factors. Spotify Technology S.A. (SPOT) leads in audio streaming and has seen its shares jump 68% in 2024 and 224% over two years. Bank of America sees a 21% upside potential for Spotify, showing strong confidence in its future. The Progressive Corporation (PGR) is a top pick for Bank of America. It’s a leading auto insurer known for its solid finances and growth potential. This makes it a great choice for investors looking for steady dividends and long-term gains. Alphabet, Inc. (GOOG, GOOGL) is a favorite among Bank of America’s picks. Its strong market position, innovative products, and solid finances appeal to tech investors. Despite a 4% drop in April, Alphabet has seen an 11% increase this year, showing its resilience and growth potential. Bank of America’s picks for the quarter offer a mix of growth, stability, and income potential. These stocks can help investors understand the bank’s strategy and find new opportunities for their portfolios.",
+      "topic": "best picks to buy stocks",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-2171b493ac",
+      "title": "Share tips 2025: this week's top picks",
+      "url": "https://moneyweek.com/investments/605633/share-tips",
+      "source": "moneyweek",
+      "source_quality": "low",
+      "published_at": "2025-07-28",
+      "snippet": "This week’s \"Share Tips 2025\" highlights top stock picks for investors, focusing on both UK and international markets. The four top buys include: 1. Wickes (LSE: WIX), a DIY retailer benefiting from improved retail conditions and consumer sentiment, with promising profit and dividend forecasts. 2. Oxford Nanopore (LSE: ONT), a DNA/RNA sequencing technology firm which, despite underwhelming performance since IPO, has strong potential if its tech expands into protein analysis. 3. Genus (LSE: GNS), a biosciences company close to commercializing PRRS virus-resistant pigs in the US, with further international approval pending. 4. Cake Box, which recently acquired Ambala Foods to expand its offerings and potentially increase earnings despite the increased debt making it a speculative buy. A \"sell\" recommendation is given for RM (LSE: RM) due to mounting debt, falling sales, and uncertain future developments despite a swing back to operating profit. Additionally recommended are Brickability (LSE: BRCK) and Personal Group (LSE: PGH) for long-term value, and Amgen (NASDAQ: AMGN) for its resilient drug portfolio and promising obesity treatment pipeline.",
+      "topic": "best picks to buy stocks",
+      "depth": 1,
+      "tags": [
+        "hype",
+        "uncertain",
+        "evergreen"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-dacf245fc9",
+      "title": "5 Undervalued Stocks to Buy Now",
+      "url": "https://www.kiplinger.com/investing/stocks/best-undervalued-stocks",
+      "source": "kiplinger",
+      "source_quality": "low",
+      "published_at": "2025-07-31",
+      "snippet": "This article highlights five undervalued stocks worth considering amid a market upswing that has left major indices at or near record highs. Despite the S&P 500's lofty valuation (forward P/E over 22), select mid-cap and small-cap stocks remain attractively priced. The chosen stocks span different sectors and were selected based on strict criteria: strong analyst Buy ratings (average ≤2.0), forward P/E ratios below sector averages, PEG ratios under 1.0 (indicating undervaluation relative to growth), and positive price performance over the past year. The five highlighted stocks are: Primo Brands (PRMB), Opera Limited (OPRA), Citizens Financial Group (CFG), CarGurus (CARG), and Chart Industries (GTLS). These selections reflect a blend of growth, value, and income opportunities across diverse industries.",
+      "topic": "best picks to buy stocks",
+      "depth": 1,
+      "tags": [
+        "uncertain",
+        "evergreen"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-43210bfb24",
+      "title": "The Best Stocks of the Century",
+      "url": "https://www.kiplinger.com/investing/stocks/best-stocks-of-the-century",
+      "source": "kiplinger",
+      "source_quality": "low",
+      "published_at": "2025-07-28",
+      "snippet": "The article from Kiplinger highlights the top-performing U.S. stocks of the 21st century based on returns above 30,000%, using data from the S&P 1500. Over nearly 25 years, while the S&P 1500 itself returned 666%, these standout companies far surpassed that. Topping the list is Monster Beverage, which transformed from a juice seller into a global energy drink leader, boosted by a strategic Coca-Cola partnership. Nvidia follows, dominating the AI hardware and software space, with explosive sales growth thanks to its GPUs. Apple ranks highly, evolving from a tech underdog to a nearly $400 billion revenue powerhouse through its ecosystem of devices and services. Other major gainers include Booking Holdings, leveraging global travel demand; Tractor Supply, a rural retail success; and Texas Pacific Land, benefiting from oil royalties and AI data center speculation. Old Dominion Freight Line excelled through operational efficiency, while Deckers Outdoor thrived under brands like UGG and Hoka. Tyler Technologies capitalized on local government software needs, and Comfort Systems USA grew through acquisitions in the HVAC sector, with future opportunities tied to AI infrastructure. These companies share strong brand strategies, strategic investments, and adaptability to changing markets.",
+      "topic": "best picks to buy stocks",
+      "depth": 1,
+      "tags": [
+        "uncertain",
+        "evergreen"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-49c293e2b3",
+      "title": "The 10 Best Tech Stocks of All Time",
+      "url": "https://www.kiplinger.com/slideshow/investing/t058-s001-the-10-best-tech-stocks-of-all-time/index.html",
+      "source": "kiplinger",
+      "source_quality": "low",
+      "published_at": "2025-07-30",
+      "snippet": "This article explores the 10 best tech stocks of all time, highlighting their exceptional long-term performance and contribution to overall market wealth creation. Citing research by Arizona State University’s Hendrik Bessembinder, it emphasizes that just 4% of stocks created all $34.8 trillion in shareholder wealth over a 90-year span, with tech stocks accounting for a significant portion. The top 10 were selected based on annualized total returns over at least 20 years and include both traditional and tech-adjacent firms. The list, ranked in reverse performance order, features: Apple (AAPL), Amphenol (APH), Salesforce (CRM), Fair Isaac (FICO), Microsoft (MSFT), Alphabet (GOOGL), Monolithic Power Systems (MPWR), Amazon (AMZN), Netflix (NFLX), and Nvidia (NVDA). The piece concludes with a caution about the difficulty of picking out such winners and endorses diversified, low-cost index fund investing.",
+      "topic": "best picks to buy stocks",
+      "depth": 1,
+      "tags": [
+        "uncertain",
+        "evergreen"
+      ]
+    }
+  ],
+  "log": [
+    {
+      "topic": "AI news",
+      "topic_id": "c380242219",
+      "depth": 1,
+      "plan": {
+        "queries": [
+          "AI news latest news past 48 hours",
+          "AI news announcement OR launch OR unveils past 3 days",
+          "AI news breakthrough OR benchmark OR SOTA past week",
+          "AI news report OR analysis OR deep dive past week",
+          "AI news GitHub release OR repo trending past week"
+        ],
+        "rationale": "broad-first",
+        "expected_signals": []
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "The preview items are mostly business/strategy pieces without clear breakthrough tech, regulatory inflection, or high-confidence novel signals. Some links appear date-inconsistent or generic (newsletters, exec comments). Need to probe for concrete developments (model releases, major funding/partnerships closed, policy actions, safety incidents) within last 48h.",
+        "next_focus": [
+          "Any major model releases or benchmarks in last 48h (e.g., new multimodal/video, small models, inference optimizations) site:openai.com OR site:anthropic.com OR site:deepmind.google",
+          "Regulatory or legal moves in US/EU/UK on AI (rules, fines, lawsuits, procurement) site:reuters.com OR site:apnews.com OR site:ec.europa.eu OR site:congress.gov past 2 days",
+          "Significant funding/partnerships closed (term sheets to closed), especially infra (chips, inference providers, vector DBs) site:reuters.com past 2 days"
+        ]
+      },
+      "found_raw": 30,
+      "kept": 14,
+      "dropped_old": 16,
+      "dropped_src": 0,
+      "ts": "2025-08-02T10:21:34"
+    },
+    {
+      "topic": "big tech",
+      "topic_id": "3093f4f761",
+      "depth": 1,
+      "plan": {
+        "queries": [
+          "big tech latest news past 48 hours",
+          "big tech announcement OR launch OR unveils past 3 days",
+          "big tech breakthrough OR benchmark OR SOTA past week",
+          "big tech report OR analysis OR deep dive past week",
+          "big tech GitHub release OR repo trending past week"
+        ],
+        "rationale": "broad-first",
+        "expected_signals": []
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "Recent items hint at continued AI capex and regulatory scrutiny, but lack concrete, novel developments specific to the last 48 hours tied to ‘big tech’ beyond general market moves. Need to validate any fresh earnings, guidance changes, capex disclosures, antitrust actions, or product launches.",
+        "next_focus": [
+          "Check last 48 hours Big Tech earnings/updates (Apple, Microsoft, Alphabet, Amazon, Meta, Nvidia): capex, AI infra spend, guidance, stock reactions.",
+          "Regulatory/antitrust in US/EU: new filings, decisions, probes on acquihires, app stores, AI deals (OpenAI, Anthropic), cloud bundling.",
+          "Market impact signals: notable analyst revisions, capex supply chain confirmations (TSMC, ASML, Broadcom, HBM suppliers) attributable to Big Tech AI spend in last 48 hours."
+        ]
+      },
+      "found_raw": 27,
+      "kept": 13,
+      "dropped_old": 12,
+      "dropped_src": 0,
+      "ts": "2025-08-02T10:22:17"
+    },
+    {
+      "topic": "stock market - polish",
+      "topic_id": "733550c688",
+      "depth": 1,
+      "plan": {
+        "queries": [
+          "stock market - polish latest news past 48 hours",
+          "stock market - polish announcement OR launch OR unveils past 3 days",
+          "stock market - polish breakthrough OR benchmark OR SOTA past week",
+          "stock market - polish report OR analysis OR deep dive past week",
+          "stock market - polish GitHub release OR repo trending past week"
+        ],
+        "rationale": "broad-first",
+        "expected_signals": []
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "Initial items are broad and potentially low-signal: one is a general valuation dashboard; the other is a single article with uncertain credibility and possibly not within the last 48 hours. No clearly strong, novel, and credible developments (e.g., policy shifts, macro data releases, major earnings, index rebalances) have been identified yet.",
+        "next_focus": [
+          "site:pap.pl OR site:bankier.pl OR site:biznes.pap.pl last 48h WIG WIG20 NBP CPI stopy procentowe decyzja",
+          "PKO BP OR PKN Orlen OR KGHM earnings/updates last 48h site:pap.pl OR site:stockwatch.pl",
+          "Poland ETF flow and index: iShares MSCI Poland (EPOL) flows, WIG20 performance, foreign inflows last 48h site:ft.com OR site:bloomberg.com OR site:reuters.com",
+          "site:reuters.com OR site:bloomberg.com AI capex OR AI spending OR earnings past 48 hours",
+          "site:microsoft.com/en-us/investor OR site:investors.nvidia.com OR site:ir.amazon.com OR site:alphabet.com OR site:abc.xyz past 48 hours transcript OR remarks AI OR capex",
+          "site:openai.com/blog OR site:deepmind.google OR site:ai.meta.com/blog past 7 days (introducing OR release OR model OR benchmark)",
+          "site:pap.pl OR site:pap.pl/biznes OR site:parkiet.com OR site:pulsbiznesu.pl OR site:bankier.pl OR site:forsal.pl OR site:money.pl last 48 hours WIG20 OR Orlen OR PGE OR PKO OR Pekao OR Santander Polska OR KGHM",
+          "site:nbp.pl last 48 hours komunikat OR konferencja OR oświadczenie",
+          "site:gov.pl/web/klimat OR site:ure.gov.pl last 48 hours"
+        ]
+      },
+      "found_raw": 32,
+      "kept": 2,
+      "dropped_old": 27,
+      "dropped_src": 0,
+      "ts": "2025-08-02T10:22:55"
+    },
+    {
+      "topic": "stock market - polish",
+      "topic_id": "733550c688",
+      "depth": 2,
+      "plan": {
+        "queries": [
+          "site:wyborcza.biz WIG ostatnie 48 godziny",
+          "site:parkiet.com WIG20 ostatnie 48 godzin",
+          "site:businessinsider.com.pl giełda WIG20 ostatnie 2 dni"
+        ],
+        "rationale": "Aim to capture high-impact Polish equity market developments in the last 48–72 hours, focusing on index moves (WIG/WIG20/mWIG40/sWIG80), macro catalysts (CPI surprises, NBP policy signals, PLN moves), major single-name events (earnings pre-announcements, M&A, dividends, regulatory actions) and sector themes (banks, energy, utilities). Sources emphasize credible Polish financial media and official communications; social signals used only for corroboration.",
+        "expected_signals": [
+          "Sharp WIG20 move (>2%) tied to macro or policy headlines",
+          "NBP-related commentary or surprise guidance impacting bank stocks",
+          "CPI or GDP print surprise affecting rates-sensitive sectors",
+          "PLN volatility versus EUR/USD influencing exporters",
+          "Company-specific: PKN Orlen, KGHM, PZU, PKO BP earnings/updates, dividends, M&A, regulatory fines",
+          "Energy/utilities developments: capacity market, power prices, windfall taxes, tariff decisions",
+          "Foreign flow/ETF data affecting Poland (e.g., MSCI EM rebalances, ETF inflows/outflows)",
+          "Brokerage upgrades/downgrades on WIG20 heavyweights from top houses (mBank, PKO, Pekao, BofA, JPM)"
+        ]
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "No strong, clearly novel, and well-corroborated signals identified yet within the last 48 hours across Polish equities. Need to verify index performance, any NBP/PLN-driven catalysts, and single-name moves (banks, energy, utilities) from credible Polish sources.",
+        "next_focus": [
+          "Check official index closes and intraday context for WIG, WIG20, mWIG40, sWIG80 over last 2 sessions via GPW and PAP Biznes to confirm directionality and breadth.",
+          "Scan NBP communications and latest CPI/flash prints or surprises; cross-check PLN moves vs EUR/USD to assess macro catalyst relevance.",
+          "Identify notable single-name events (banks’ guidance or dividends, Orlen/energy regulatory developments, utilities capacity/price news) via GPW ESPI/EBI filings and company PRs.",
+          "site:reuters.com OR site:bloomberg.com AI capex OR AI spending OR earnings past 48 hours",
+          "site:microsoft.com/en-us/investor OR site:investors.nvidia.com OR site:ir.amazon.com OR site:alphabet.com OR site:abc.xyz past 48 hours transcript OR remarks AI OR capex",
+          "site:openai.com/blog OR site:deepmind.google OR site:ai.meta.com/blog past 7 days (introducing OR release OR model OR benchmark)",
+          "site:pap.pl OR site:pap.pl/biznes OR site:parkiet.com OR site:pulsbiznesu.pl OR site:bankier.pl OR site:forsal.pl OR site:money.pl last 48 hours WIG20 OR Orlen OR PGE OR PKO OR Pekao OR Santander Polska OR KGHM",
+          "site:nbp.pl last 48 hours komunikat OR konferencja OR oświadczenie",
+          "site:gov.pl/web/klimat OR site:ure.gov.pl last 48 hours"
+        ]
+      },
+      "found_raw": 4,
+      "kept": 0,
+      "dropped_old": 2,
+      "dropped_src": 2,
+      "ts": "2025-08-02T10:24:34"
+    },
+    {
+      "topic": "stock market - polish",
+      "topic_id": "733550c688",
+      "depth": 3,
+      "plan": {
+        "queries": [
+          "site:pap.pl giełda ostatnie 48 godziny",
+          "WIG20 ostatnie 48 godziny spadki wzrosty przyczyny",
+          "NBP decyzja stopy procentowe wpływ giełda ostatnie dni"
+        ],
+        "rationale": "Cover major Polish equity drivers in the last 48–72 hours: index moves (WIG20), macro/FX (NBP, inflation, PLN), sector bellwethers (banks, energy, gaming), and credible local wires (PAP) for high-impact, actionable items.",
+        "expected_signals": [
+          "Large WIG20 move (>2%) with sector breadth details and catalyst",
+          "NBP commentary or unexpected macro print affecting rate path and banks",
+          "PLN volatility vs EUR/USD linked to risk sentiment, impacting exporters",
+          "Company-specific catalysts: Orlen pricing/dividends, CD Projekt pipeline/patches, bank results or guidance",
+          "Foreign flows/fund rebalancing or MSCI-related changes affecting GPW turnover",
+          "Energy/utility regulation or windfall tax updates influencing valuations",
+          "Broker downgrades/upgrades from reputable houses moving liquid names",
+          "Unusual volume/block trades in top constituents signaling institutional activity"
+        ]
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "No definitive, novel, and corroborated signals identified within the last 48 hours from the provided preview. To assess strength of market-moving developments, we need verification of WIG20 performance drivers, NBP/inflation signals, PLN moves, and sector-specific catalysts from credible Polish sources.",
+        "next_focus": [
+          "Check WIG20/WIG and sector performance last 48h; identify top movers and catalysts (earnings, guidance, regulatory news) from PAP Biznes, GPW, bank/broker notes.",
+          "Scan NBP commentary and latest CPI/nowcasts; verify PLN vs EUR/USD moves and drivers (rates expectations, energy prices) from PAP, NBP, and major Polish banks’ research summaries.",
+          "Review sector bellwethers: banks (credit holidays/legal risk), energy/utilities (capacity/CFD/tariff decisions), gaming (CD Projekt/Techland/11 bit news), and retail (price caps/VAT) for any confirmed policy or corporate updates."
+        ]
+      },
+      "found_raw": 16,
+      "kept": 0,
+      "dropped_old": 5,
+      "dropped_src": 11,
+      "ts": "2025-08-02T10:26:25"
+    },
+    {
+      "topic": "stock market - polish",
+      "topic_id": "733550c688",
+      "depth": 3,
+      "plan": {
+        "queries": [
+          "site:wyborcza.biz WIG ostatnie 48 godziny",
+          "site:parkiet.com WIG20 ostatnie 48 godzin",
+          "site:businessinsider.com.pl Giełda 48 godzin"
+        ],
+        "rationale": "Celem jest szybkie wyłapanie najważniejszych, świeżych i wiarygodnych informacji o polskim rynku akcji (GPW, WIG/WIG20) z ostatnich 48–72 godzin. Dobieram topowe, rzetelne źródła finansowe w Polsce (Parkiet, Puls Biznesu, Bankier, Business Insider Polska, Money, Stooq – szybkie depesze i kalendarium, Wyborcza.biz), aby znaleźć: duże ruchy indeksów/sektorów, zdarzenia korporacyjne (wyniki, guidance, buybacki, M&A), decyzje/regulacje wpływające na wyceny (NBP, MF, UOKiK, KNF), czynniki makro (inflacja, stopy, rentowności, PLN), przepływy (napływy/odpływy do ETF-ów na WIG20), oraz wpływ otoczenia globalnego (S&P 500, DAX, surowce). Zapytania są po polsku i zawężone do krótkiego okna czasowego, by uzyskać treści o wysokiej istotności i aktualności.",
+        "expected_signals": [
+          "Silne dzienne zmiany WIG20/WIG/SWIG80 oraz wskazanie liderów i maruderów sesji",
+          "Wyniki kwartalne/aktualizacje prognoz dużych spółek WIG20/MWIG40 (KGHM, PKN Orlen, PKO, PZU, Dino, CD Projekt) i reakcja kursów",
+          "Informacje o dywidendach, buybackach, SPO/IPO, wezwaniach/M&A, zmianach w indeksach FTSE/Russell/MSCI dotyczących polskich spółek",
+          "Decyzje/komentarze NBP, dane o CPI/PMI/PKB, zmiany rentowności obligacji i kursu PLN oraz ich wpływ na banki/eksporterów",
+          "Ruchy cen surowców (miedź, ropa, gaz) i ich wpływ na KGHM/Orlen; ceny energii a sektor utilities",
+          "Wypowiedzi/komunikaty KNF, UOKiK, MF dotyczące podatków, regulacji bankowych, energetyki, paliw",
+          "Napływy/odpływy do ETF-ów na polskie akcje, istotne zmiany short interest/pożyczek papierów",
+          "Wpływ globalnych rynków (DAX, S&P 500, stopy USA/EZ) na sentyment do rynków CEE i GPW"
+        ]
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "Brak dostępu do bieżących danych w czasie rzeczywistym i konieczność weryfikacji, czy w ostatnich 48 h pojawiły się istotne ruchy indeksów (WIG/WIG20), komunikaty spółek z WIG20/mWIG40 (wyniki, buyback, M&A), oraz decyzje/regulacje (NBP, MF, KNF, UOKiK). Potrzebna szybka walidacja sygnałów w rzetelnych, lokalnych źródłach.",
+        "next_focus": [
+          "site:stooq.pl \"WIG20\" OR \"WIG\" last 2 days kalendarium, depesze; sprawdź zamknięcia, największe wzrosty/spadki, obroty",
+          "site:parkiet.com WIG20 OR GPW data:48h; newsy o wynikach, rekomendacjach, buybackach, M&A (PKN Orlen, KGHM, PKO, PZU, CD Projekt)",
+          "site:bankier.pl OR site:pb.pl (Puls Biznesu) data:48h; decyzje NBP/MF/KNF/UOKiK, makro (CPI, stopy, złoty, rentowności), wpływ DAX/S&P500, surowce (ropa, miedź)"
+        ]
+      },
+      "found_raw": 0,
+      "kept": 0,
+      "dropped_old": 0,
+      "dropped_src": 0,
+      "ts": "2025-08-02T10:26:54"
+    },
+    {
+      "topic": "stock market - polish",
+      "topic_id": "733550c688",
+      "depth": 3,
+      "plan": {
+        "queries": [
+          "site:parkiet.com OR site:wyborcza.biz OR site:businessinsider.com.pl OR site:bankier.pl giełda ostatnie 48 godziny",
+          "WIG20 ostatnie 48 godz. decyzje RPP inflacja PLN",
+          "GPW debiut oferta publiczna ostatnie 72 godziny"
+        ],
+        "rationale": "Focus on Poland’s equity market in the last 48–72 hours: index moves (WIG20), macro catalysts (RPP/NBP, inflation, FX), high-cap earnings/guidance, corporate actions via ESPI, IPO/secondary offerings, dividend updates, and rates/credit conditions. Sources narrowed to credible Polish financial media and primary disclosures.",
+        "expected_signals": [
+          "Sharp WIG20/WIG midcap move with attribution (rates, FX, sector news)",
+          "NBP/RPP comments, surprise inflation prints, or notable PLN moves affecting exporters/banks",
+          "ESPI filings: profit warnings, guidance changes, M&A, share buybacks, equity issuance",
+          "Earnings beats/misses from WIG20/large caps (Orlen, KGHM, CD Projekt, banks) with market reaction",
+          "New IPO/ABB placements or halted offerings on GPW",
+          "Dividend announcements/changes and payout policies impacting yields",
+          "Energy/regulatory decisions (capacity market, wind law, power prices) affecting utilities/OZE",
+          "Polish 10Y yield or FRA shifts signaling cost of capital changes for equities"
+        ]
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "The request targets the last 48 hours for Poland’s equity market. Without live data access, I can’t confirm fresh, credible signals (e.g., new RPP decisions, ESPI filings, WIG20 moves, earnings). To determine if strong novel signals exist, we need targeted, time-bounded checks of primary and top-tier local sources.",
+        "next_focus": [
+          "Check WSE indices and sector performance for last 2 sessions: WIG20, mWIG40, sWIG80; intraday/close moves, turnover, breadth (GPW official site or Stooq).",
+          "Scan ESPI/EBI for price-sensitive disclosures in last 48h: earnings, guidance, M&A, secondary offerings, dividends/buybacks from WIG20 components (PKN Orlen, PKO BP, PZU, KGHM, Dino, CD Projekt, Allegro, PGE, Pepco Group if applicable).",
+          "Verify macro/FX catalysts: any new NBP/RPP comments, minutes, inflation prints (flash CPI), wage/retail sales, PMI; PLN moves vs EUR/USD; Polish yields (2y/10y) on last two sessions (NBP, GUS, PAP Biznes, Bloomberg/Reuters, Stooq)."
+        ]
+      },
+      "found_raw": 16,
+      "kept": 0,
+      "dropped_old": 8,
+      "dropped_src": 8,
+      "ts": "2025-08-02T10:27:25"
+    },
+    {
+      "topic": "stock market - polish",
+      "topic_id": "733550c688",
+      "depth": 3,
+      "plan": {
+        "queries": [
+          "site:pap.pl giełda ostatnie 48 godziny",
+          "WIG20 ostatnie 2 dni analiza",
+          "NBP decyzja stopy procentowe wpływ GPW ostatnie 72h"
+        ],
+        "rationale": "Celem jest szybkie wychwycenie kluczowych, wiarygodnych i rynkowo istotnych informacji dotyczących polskiego rynku akcji w ostatnich 48–72 godzinach. Zapytania koncentrują się na: ogólnym obrazie rynku (WIG20, GPW), decyzjach makro (NBP), ruchach w surowcach istotnych dla polskich spółek (miedź dla KGHM), oraz największych/ważnych komponentach indeksu (PKN Orlen, KGHM, CD Projekt, banki jak PKO BP). Źródła priorytetowe to PAP Biznes, oficjalne komunikaty spółek i GPW, oraz renomowane media finansowe. To powinno ujawnić wyniki, guidance, raporty bieżące ESPI, zmiany rekomendacji, sygnały regulacyjne i czynniki globalne wpływające na polskie akcje.",
+        "expected_signals": [
+          "Komunikaty ESPI/EBI spółek WIG20/MWIG40 o wynikach, prognozach lub istotnych umowach",
+          "Decyzje/komentarze NBP, MF, KNF, ewentualne zmiany podatkowe lub regulacyjne dot. rynku",
+          "Ruchy cen surowców (miedź, ropa, gaz) i ich wpływ na KGHM/Orlen/chemia",
+          "Duże zmiany rekomendacji/analityczne raporty dla kluczowych spółek (PKN Orlen, PKO, Pekao, Santander, KGHM, CD Projekt)",
+          "Napływy/odpływy do funduszy EM/CEE, rewizje MSCI/FTSE wpływające na wagi polskich akcji",
+          "Istotne wydarzenia korporacyjne: dywidendy, buybacki, wezwania, M&A, zmiany zarządów",
+          "Istotne dane makro PL i globalne (inflacja, PMI, PKB, stopy) z wpływem na GPW",
+          "Wydarzenia geopolityczne/regulacyjne w UE wpływające na sektor energii/finanse w Polsce"
+        ]
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "Brak dostępu do bieżących danych w oknie 48h uniemożliwia potwierdzenie silnych i nowych sygnałów rynkowych. Aby ocenić wpływ na WIG20/GPW i kluczowe spółki, potrzebne są świeże, wiarygodne źródła (PAP Biznes/ESPI/GPW) dotyczące wyników, guidance, decyzji NBP, cen miedzi oraz rekomendacji analityków.",
+        "next_focus": [
+          "site:pap.pl biznes WIG20 GPW ostatnie 48 godz. wyniki, rekomendacje, komentarze sesyjne",
+          "site:espi.gpw.pl raporty bieżące ostatnie 2 dni spółki: PKN Orlen, KGHM, CD Projekt, PKO BP, Pekao, Santander Bank Polska",
+          "copper price last 2 days impact KGHM; dodatkowo: NBP/komentarze RPP, rentowności POLGBs i PLN vs EUR/USD w kontekście banków i eksportera"
+        ]
+      },
+      "found_raw": 8,
+      "kept": 0,
+      "dropped_old": 0,
+      "dropped_src": 2,
+      "ts": "2025-08-02T10:28:00"
+    },
+    {
+      "topic": "stock market - polish",
+      "topic_id": "733550c688",
+      "depth": 3,
+      "plan": {
+        "queries": [
+          "site:money.pl OR site:biznes.interia.pl OR site:bankier.pl WIG20 ostatnie 48 godziny spadki wzrosty powody",
+          "NBP interwencja FX złoty osłabienie ostatnie 48 godziny site:nbp.pl OR site:pap.pl",
+          "CD Projekt kurs raport rekomendacje ostatnie 48 godziny site:bankier.pl"
+        ],
+        "rationale": "Aim to capture high-impact, credible, and actionable Polish stock market developments from the last 48–72 hours: index moves (WIG20, mWIG40), macro drivers (CPI flash, NBP/FX, yields), sector and blue-chip catalysts (banks, energy, CD Projekt), official corporate actions (GPW, KNF), and market microstructure (IPOs/auctions). Sources prioritize PAP, Parkiet, Bankier, Interia Biznes, Money.pl, GPW, KNF, GUS, NBP, and Stooq for credibility and timeliness.",
+        "expected_signals": [
+          "Sharp WIG20 move with attribution to global risk, yields, or PLN swings",
+          "NBP or government commentary affecting PLN, rates, or banking sector",
+          "Flash CPI or surprise macro print shifting rate-cut expectations",
+          "Move in Polish 10Y yields or auction outcome impacting banks/valuations",
+          "Blue-chip news: Orlen margins/dividend, PKO/PKN/PKN? results/guidance, CD Projekt pipeline/patch/review embargo",
+          "Corporate actions: buybacks, dividends, M&A, wezwań, IPO calendars from GPW/KNF",
+          "Flows: ETFs or MSCI changes affecting Polish equities",
+          "Energy/regulatory headlines: windfall taxes, utility tariff decisions influencing WIG-Energia"
+        ]
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "No clear strong/novel signals can be confirmed without fresh data checks for the specified 48h window (e.g., WIG20 drivers, macro prints, KNF/GPW notices, major blue‑chip updates). To avoid stale or speculative conclusions, more targeted verification is needed from primary Polish sources.",
+        "next_focus": [
+          "Check WIG20/mWIG40/sWIG80 performance and sector leaders/laggards over last 2 sessions; confirm turnover spikes via GPW/Stooq (query: site:stooq.pl WIG20 ostatnie 2 dni obroty)",
+          "Scan macro/policy: flash CPI, NBP comments, PLN moves, Polish yields (10Y), and any MoF/NBP FX operations (query: site:nbp.pl CPI projekcja komentarz; site:pap.pl NBP złoty rentowności)",
+          "Blue chips and sectors: banks (credit holidays/reserves, KNF guidance), energy/utilities (capacity/CO2/price caps), CD Projekt/11 bit/Allegro (guidance/releases), KGHM (copper), Orlen (margins). Check PAP Biznes/Parkiet/Bankier headlines (query: site:pap.pl biznes WIG20 ostatnie 48 godzin; site:parkiet.com WIG20 banki energia)"
+        ]
+      },
+      "found_raw": 19,
+      "kept": 0,
+      "dropped_old": 3,
+      "dropped_src": 16,
+      "ts": "2025-08-02T10:28:40"
+    },
+    {
+      "topic": "stock market - polish",
+      "topic_id": "733550c688",
+      "depth": 3,
+      "plan": {
+        "queries": [
+          "site:pap.pl OR site:bankier.pl OR site:strefainwestorow.pl WIG20 ostatnie 48 godziny",
+          "NBP stopy procentowe inflacja Polska ostatnie 48 godziny",
+          "KDPW krótkiej sprzedaży ograniczenia ostatnie 72 godziny"
+        ],
+        "rationale": "Aim to capture market-moving Polish equities news in the past 48–72 hours: macro (NBP, inflation), regulatory (short-selling, KDPW/KNF/GPW measures), major blue-chip catalysts (WIG20 performance, earnings, guidance, dividends, buybacks), and primary market pipeline (IPOs). Sources prioritized: PAP, Bankier, Strefa Inwestorów, GPW/KNF/NBP releases for credibility and actionability.",
+        "expected_signals": [
+          "Surprise shifts or guidance from NBP or MPC members affecting rate path and equity valuations",
+          "Announcements on taxes, windfall levies, energy price caps, or regulatory changes impacting large caps (energy, banks)",
+          "Company-specific catalysts: earnings beats/misses, guidance changes, dividends/buybacks from WIG20 names (PKN Orlen, PKO, PZU, KGHM, CD Projekt, Allegro)",
+          "GPW notices on index revisions, trading halts, or liquidity measures; KNF/KDPW updates on settlement, short-selling, or corporate actions",
+          "IPO/ SPO/ ABB transactions, bookbuilding news, or cornerstone investor updates",
+          "Commodity-linked shocks relevant to Polish equities (copper for KGHM, oil/gas for Orlen, power prices for utilities)",
+          "Macroprints: CPI flash, industrial production, retail sales surprises vs consensus",
+          "Geopolitical or EU policy developments affecting Polish markets (EU funds disbursement, ETS/energy rules, Ukrainian trade corridors)"
+        ]
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "The provided preview link is old (archival) and not within the last 48 hours. To determine if there are strong, novel, credible signals in the Polish equity market, we need to check current macro/regulatory headlines and blue-chip catalysts from trusted Polish sources over the last two days.",
+        "next_focus": [
+          "site:pap.pl OR site:papbiznes.pl NBP OR inflacja OR projekcja \"ostatnie 2 dni\"",
+          "site:knf.gov.pl OR site:gpw.pl krótką sprzedaż OR regulacje OR komunikat data:2024..today",
+          "site:bankier.pl OR site:strefainwestorow.pl WIG20 wyniki dywidenda buyback \"ostatnie 48 godzin\""
+        ]
+      },
+      "found_raw": 14,
+      "kept": 1,
+      "dropped_old": 7,
+      "dropped_src": 6,
+      "ts": "2025-08-02T10:29:11"
+    },
+    {
+      "topic": "stock market - polish",
+      "topic_id": "733550c688",
+      "depth": 3,
+      "plan": {
+        "queries": [
+          "site:bankier.pl giełda ostatnie 48 godziny najważniejsze wiadomości",
+          "site:pb.pl WIG20 ostatnie 2 dni analizy i komentarze",
+          "site:parkiet.com WIG20 wyniki spółek ostatnie 48 godzin"
+        ],
+        "rationale": "Celem jest szybkie wyłapanie istotnych, świeżych i weryfikowalnych informacji dotyczących polskiego rynku akcji (GPW) z ostatnich 48–72 godzin, ze szczególnym uwzględnieniem WIG20 i kluczowych spółek. Zapytania kieruję do wiarygodnych, lokalnych źródeł rynkowych (Bankier, Puls Biznesu, Parkiet, Stooq) oraz pod kątem makro (NBP, inflacja), które mogą mieć bezpośredni wpływ na rynek i zapewnić możliwe do działania wnioski.",
+        "expected_signals": [
+          "Duże ruchy indeksów WIG/WIG20/mWIG40/sWIG80 w reakcji na dane lub wyniki",
+          "Komunikaty NBP/MinFin dot. inflacji, obligacji, interwencji, projekcji",
+          "Wyniki kwartalne/aktualizacje guidance kluczowych spółek (PKN Orlen, PKO BP, Pekao, KGHM, PZU, CD Projekt, Dino)",
+          "Zmiany rekomendacji/analitycznych targetów dla największych spółek przez duże domy maklerskie",
+          "Istotne wydarzenia regulacyjne/energetyczne (ceny energii, OZE, podatki sektorowe, dywidendy) wpływające na notowania",
+          "Duże przepływy ETF/rewizje indeksów FTSE/MSCI dotyczące Polski",
+          "Sygnały techniczne na WIG20/blue chips po publikacjach danych makro krajowych i z USA/UE"
+        ]
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "Przekazane podglądy artykułów są w większości polityczno-społeczne lub zagraniczne i nie dostarczają silnych, bezpośrednich sygnałów dla polskiego rynku akcji (GPW) w horyzoncie 48h. Brakuje świeżych danych o WIG20, kluczowych spółkach, przepływach ETF, decyzjach korporacyjnych (dywidendy, guidance, buybacki), oraz impulsów makro (inflacja, NBP, rentowności, FX).",
+        "next_focus": [
+          "WIG20/WIG – dzisiejsza i wczorajsza sesja: liderzy wzrostów/spadków, obroty, sygnały z kontraktów FW20 (stooq, bankier, parkiet)",
+          "Kluczowe spółki: KGHM, PKN Orlen, PKO BP/PEKAO, Dino, CD Projekt – komunikaty ESPI/EBI, wyniki, guidance, dywidendy, buybacki (GPW, ESPI, PAP Biznes)",
+          "Makro i stopy: zapowiedzi RPP/NBP, najnowsze odczyty inflacji/PKB, złoty i rentowności PL (NBP, GUS, PAP Biznes, stooq)"
+        ]
+      },
+      "found_raw": 13,
+      "kept": 4,
+      "dropped_old": 2,
+      "dropped_src": 7,
+      "ts": "2025-08-02T10:29:46"
+    },
+    {
+      "topic": "best picks to buy stocks",
+      "topic_id": "7160a674b2",
+      "depth": 1,
+      "plan": {
+        "queries": [
+          "best picks to buy stocks latest news past 48 hours",
+          "best picks to buy stocks announcement OR launch OR unveils past 3 days",
+          "best picks to buy stocks breakthrough OR benchmark OR SOTA past week",
+          "best picks to buy stocks report OR analysis OR deep dive past week",
+          "best picks to buy stocks GitHub release OR repo trending past week"
+        ],
+        "rationale": "broad-first",
+        "expected_signals": []
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "Recent-preview sources are largely evergreen listicles or generic tips, not time-sensitive. For last-48h “best picks,” we need credible, novel catalysts (earnings surprises, guidance changes, regulatory approvals, M&A, index additions, analyst initiations/upsizes) from reputable outlets. Current links don’t provide that signal strength.",
+        "next_focus": [
+          "site:bloomberg.com OR site:reuters.com earnings beats guidance raise stock soars last 48 hours",
+          "site:seekingalpha.com \"Top idea\" OR \"Strong Buy\" upgrade last 2 days ticker-specific with catalyst",
+          "site:investors.businessdaily.com \"Breakout\" OR \"buy point\" past 2 days RS line new high",
+          "site:fda.gov OR site:ema.europa.eu approval oncology PDUFA approval stock jumps last 2 days",
+          "site:ir.[company].com press release acquisition OR guidance update last 48 hours"
+        ]
+      },
+      "found_raw": 23,
+      "kept": 18,
+      "dropped_old": 4,
+      "dropped_src": 0,
+      "ts": "2025-08-02T10:30:48"
+    }
+  ],
+  "summary": {
+    "topics": [
+      "AI news",
+      "big tech",
+      "stock market - polish",
+      "best picks to buy stocks"
+    ],
+    "window": "last 48 hours",
+    "max_depth": 3,
+    "count": 19,
+    "topic_limit": 5
+  }
+}

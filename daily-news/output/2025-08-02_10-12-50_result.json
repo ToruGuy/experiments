@@ -1,0 +1,382 @@
+{
+  "run_id": "2025-08-02",
+  "items": [
+    {
+      "item_id": "2025-08-02-fe07c8190a",
+      "title": "AI's spend cycle",
+      "url": "https://www.axios.com/newsletters/axios-ai-plus-efcf11cf-d66b-453c-9d1f-d50774376983",
+      "source": "axios",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "The August 1, 2025 edition of Axios AI+ covers the intensifying AI spend cycle, focusing on massive investments by major tech firms. OpenAI has raised $8.3 billion at a $300 billion valuation, with growing annual recurring revenue of $13 billion and 5 million business subscribers for ChatGPT. Tech giants like Microsoft, Google, Meta, and Apple are reinvesting AI revenues into infrastructure, driving Nvidia's market value to $4 trillion. Microsoft alone plans $100 billion in capital expenses next year, mostly AI-driven. Despite strong earnings from some companies, investor skepticism remains, especially with Amazon’s AI strategy.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-a28fca0430",
+      "title": "Alphabet's CapitalG, Nvidia in talks to fund Vast Data at up to $30 billion valuation, sources say",
+      "url": "https://www.reuters.com/business/alphabets-capitalg-nvidia-talks-fund-vast-data-up-30-billion-valuation-sources-2025-08-01/",
+      "source": "reuters",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "Alphabet's growth-stage venture arm CapitalG and Nvidia are reportedly in talks to invest in Vast Data, a startup specializing in AI infrastructure, in a funding round that could value the company at up to $30 billion. This substantial investment round, which includes tech giants, private equity, and venture capital firms, highlights the increasing value of data infrastructure providers amid the AI boom. Vast Data, headquartered in New York, offers storage technology tailored for AI data centers, facilitating efficient data transfer between GPUs such as those made by Nvidia. Its clients include xAI and CoreWeave.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-d56913d567",
+      "title": "Big Tech's AI spend is still a shot in the dark",
+      "url": "https://www.ft.com/content/7fea95f3-64dd-498d-bf6a-e01d0523b3d4",
+      "source": "financial times",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "As of mid-2025, Big Tech companies such as Meta and Microsoft are investing billions into generative AI, but the return on this investment remains uncertain. Though both firms posted strong earnings, these gains are largely unrelated to generative AI. Meta’s current AI advancements are mainly in traditional models improving ad targeting and content personalization, not generative AI. Nevertheless, CEO Mark Zuckerberg remains optimistic, planning a $100 billion investment in 2026 with an eye toward \"personal superintelligence\" for users—but acknowledges little near-term revenue impact.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-4b84bee717",
+      "title": "Robinhood CEO: Human traders are safe from AI",
+      "url": "https://www.axios.com/2025/08/01/ai-robinhood-anthropic-openai-traders",
+      "source": "axios",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "Robinhood CEO Vlad Tenev has expressed confidence that human traders will not be replaced by AI in the near future, despite widespread concerns about artificial intelligence disrupting white-collar jobs. Speaking to Axios, Tenev emphasized that trading remains a deeply human activity that people enjoy, suggesting that human decision-making will continue to play a central role in the financial sector.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-ec5d3b8a1e",
+      "title": "McDonald's plans to 'double down' on AI investment by 2027, senior exec says",
+      "url": "https://www.reuters.com/business/mcdonalds-plans-double-down-ai-investment-by-2027-senior-exec-says-2025-08-01/",
+      "source": "reuters",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "McDonald's plans to significantly increase its investment in artificial intelligence (AI) by 2027, focusing on expanding its capabilities in data governance, engineering, and platform architecture, particularly in India. Deshant Kaila, the company’s head of Global Business Services operations, stated that while precise investment figures are not yet defined due to the early stage of the initiative, the primary expenditure will be directed toward technology and tools rather than expanding staff. The strategy underscores McDonald’s commitment to leveraging AI for business transformation and identifies India as a strategic hub for developing its AI infrastructure.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-9e8ed6b706",
+      "title": "Tech giants ramp up spending as AI starts to deliver",
+      "url": "https://www.axios.com/2025/08/01/ai-earnings-google-microsoft-meta-stocks",
+      "source": "axios",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "Microsoft, Google, and Meta are significantly increasing investments in data centers and computing infrastructure as AI begins to generate real revenue. Despite strong earnings, these companies are reinvesting heavily in AI infrastructure, signaling their belief that the AI boom is still in its early stages.",
+      "topic": "big tech",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-4e58b302ce",
+      "title": "PLN: Zloty Falters Amid Aversion To EM FX",
+      "url": "https://www.mnimarkets.com/pln-zloty-falters-amid-aversion-to-em-fx",
+      "source": "mni markets",
+      "source_quality": "low",
+      "published_at": "2025-08-05",
+      "snippet": "The Polish zloty weakened amid global market dynamics, with EUR/PLN trading at 4.3117. NBP Management Board's Artur Sobon indicated that the central bank is unlikely to cut rates in the first half of 2025.",
+      "topic": "stock market - polish",
+      "depth": 2,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-46fb240801",
+      "title": "GPW Expects Write Downs To Lower Group FY Pre-Tax Profit By 37 Mln Zlotys",
+      "url": "https://www.tradingview.com/news/reuters.com%2C2025%3Anewsml_FWN3PQ0VO%3A0-gpw-expects-write-downs-to-lower-group-fy-pre-tax-profit-by-37-mln-zlotys/",
+      "source": "reuters",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "The Warsaw Stock Exchange (GPW) announced that it expects asset write-downs totaling PLN 29 million, which will negatively impact the group's consolidated pre-tax profit by PLN 37 million. These events will not affect the dividend policy for 2024.",
+      "topic": "stock market - polish",
+      "depth": 2,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-8d1ed6afa4",
+      "title": "Meta to share AI infrastructure costs via $2 billion asset sale",
+      "url": "https://www.reuters.com/business/meta-share-ai-infrastructure-costs-via-2-billion-asset-sale-2025-08-01/",
+      "source": "reuters",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "Meta Platforms plans to sell $2 billion in data center assets to manage escalating AI infrastructure costs, aiming to attract external partners for co-development.",
+      "topic": "stock market - polish",
+      "depth": 2,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-a786520506",
+      "title": "Elon Musk unveils \"verbose\" X.com, teases announcement for website",
+      "url": "https://www.teslarati.com/elon-musk-unveils-x-com-teases-announcement/",
+      "source": "teslarati",
+      "source_quality": "low",
+      "published_at": "2025-07-30",
+      "snippet": "Elon Musk has unveiled a \"verbose\" version of X.com, hinting at an upcoming announcement for the website. The new iteration of X.com is expected to bring significant changes and features, though specific details have yet to be disclosed.",
+      "topic": "big tech",
+      "depth": 1,
+      "tags": [
+        "hype",
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-2171b493ac",
+      "title": "Share tips 2025: this week's top picks",
+      "url": "https://moneyweek.com/investments/605633/share-tips",
+      "source": "moneyweek",
+      "source_quality": "low",
+      "published_at": "2025-07-28",
+      "snippet": "This week’s \"Share Tips 2025\" highlights top stock picks for investors, focusing on both UK and international markets. The four top buys include: 1. Wickes (LSE: WIX), a DIY retailer benefiting from improved retail conditions and consumer sentiment, with promising profit and dividend forecasts. 2. Oxford Nanopore (LSE: ONT), a DNA/RNA sequencing technology firm which, despite underwhelming performance since IPO, has strong potential if its tech expands into protein analysis. 3. Genus (LSE: GNS), a biosciences company close to commercializing PRRS virus-resistant pigs in the US, with further international approval pending. 4. Cake Box, which recently acquired Ambala Foods to expand its offerings and potentially increase earnings despite the increased debt making it a speculative buy. A \"sell\" recommendation is given for RM (LSE: RM) due to mounting debt, falling sales, and uncertain future developments despite a swing back to operating profit. Additionally recommended are Brickability (LSE: BRCK) and Personal Group (LSE: PGH) for long-term value, and Amgen (NASDAQ: AMGN) for its resilient drug portfolio and promising obesity treatment pipeline.",
+      "topic": "best picks to buy stocks",
+      "depth": 1,
+      "tags": [
+        "hype",
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-6b8758e805",
+      "title": "Apple's €14.3 billion Irish tax break case is officially over",
+      "url": "https://www.engadget.com/big-tech/",
+      "source": "engadget",
+      "source_quality": "low",
+      "published_at": "2025-07-31",
+      "snippet": "Apple's €14.3 billion Irish tax break case is officially over.",
+      "topic": "big tech",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-0bd425c038",
+      "title": "Apple event – live: ‘Revolutionary’ headset Vision Pro heralds ‘new era of spatial computing’",
+      "url": "https://www.aol.com/apple-event-live-biggest-launch-004405681.html",
+      "source": "aol",
+      "source_quality": "low",
+      "published_at": "2025-07-30",
+      "snippet": "Apple's latest event introduced the Vision Pro headset, marking a significant advancement in spatial computing. The device features a specialized chip named R1, designed to process data from multiple sensors and cameras, aiming to reduce motion sickness and enhance user experience.",
+      "topic": "big tech",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-dacf245fc9",
+      "title": "5 Undervalued Stocks to Buy Now",
+      "url": "https://www.kiplinger.com/investing/stocks/best-undervalued-stocks",
+      "source": "kiplinger",
+      "source_quality": "low",
+      "published_at": "2025-07-31",
+      "snippet": "This article highlights five undervalued stocks worth considering amid a market upswing that has left major indices at or near record highs. Despite the S&P 500's lofty valuation (forward P/E over 22), select mid-cap and small-cap stocks remain attractively priced. The chosen stocks span different sectors and were selected based on strict criteria: strong analyst Buy ratings (average ≤2.0), forward P/E ratios below sector averages, PEG ratios under 1.0 (indicating undervaluation relative to growth), and positive price performance over the past year. The five highlighted stocks are: Primo Brands (PRMB), Opera Limited (OPRA), Citizens Financial Group (CFG), CarGurus (CARG), and Chart Industries (GTLS). These selections reflect a blend of growth, value, and income opportunities across diverse industries.",
+      "topic": "best picks to buy stocks",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-49c293e2b3",
+      "title": "The 10 Best Tech Stocks of All Time",
+      "url": "https://www.kiplinger.com/slideshow/investing/t058-s001-the-10-best-tech-stocks-of-all-time/index.html",
+      "source": "kiplinger",
+      "source_quality": "low",
+      "published_at": "2025-07-30",
+      "snippet": "This article explores the 10 best tech stocks of all time, highlighting their exceptional long-term performance and contribution to overall market wealth creation. Citing research by Arizona State University’s Hendrik Bessembinder, it emphasizes that just 4% of stocks created all $34.8 trillion in shareholder wealth over a 90-year span, with tech stocks accounting for a significant portion. The top 10 were selected based on annualized total returns over at least 20 years and include both traditional and tech-adjacent firms. The list, ranked in reverse performance order, features: Apple (AAPL), Amphenol (APH), Salesforce (CRM), Fair Isaac (FICO), Microsoft (MSFT), Alphabet (GOOGL), Monolithic Power Systems (MPWR), Amazon (AMZN), Netflix (NFLX), and Nvidia (NVDA). The piece concludes with a caution about the difficulty of picking out such winners and endorses diversified, low-cost index fund investing.",
+      "topic": "best picks to buy stocks",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-43210bfb24",
+      "title": "The Best Stocks of the Century",
+      "url": "https://www.kiplinger.com/investing/stocks/best-stocks-of-the-century",
+      "source": "kiplinger",
+      "source_quality": "low",
+      "published_at": "2025-07-28",
+      "snippet": "The article from Kiplinger highlights the top-performing U.S. stocks of the 21st century based on returns above 30,000%, using data from the S&P 1500. Over nearly 25 years, while the S&P 1500 itself returned 666%, these standout companies far surpassed that. Topping the list is Monster Beverage, which transformed from a juice seller into a global energy drink leader, boosted by a strategic Coca-Cola partnership. Nvidia follows, dominating the AI hardware and software space, with explosive sales growth thanks to its GPUs. Apple ranks highly, evolving from a tech underdog to a nearly $400 billion revenue powerhouse through its ecosystem of devices and services. Other major gainers include Booking Holdings, leveraging global travel demand; Tractor Supply, a rural retail success; and Texas Pacific Land, benefiting from oil royalties and AI data center speculation. Old Dominion Freight Line excelled through operational efficiency, while Deckers Outdoor thrived under brands like UGG and Hoka. Tyler Technologies capitalized on local government software needs, and Comfort Systems USA grew through acquisitions in the HVAC sector, with future opportunities tied to AI infrastructure. These companies share strong brand strategies, strategic investments, and adaptability to changing markets.",
+      "topic": "best picks to buy stocks",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-7da9a6a5e0",
+      "title": "Top Shares to Buy Today: Expert Stock Picks",
+      "url": "https://bykennethkeith.com/top-shares-to-buy-today-expert-stock-picks/",
+      "source": "kenneth keith's blog",
+      "source_quality": "low",
+      "published_at": "2025-07-30",
+      "snippet": "Bank of America has shared its top stock picks for the quarter, despite the market’s ups and downs. They highlight stocks like Spotify Technology S.A. (SPOT), The Progressive Corporation (PGR), and Alphabet, Inc. (GOOG, GOOGL). These stocks stand out for their growth potential and unique factors. Spotify leads in audio streaming and has seen its shares jump 68% in 2024 and 224% over two years. Bank of America sees a 21% upside potential for Spotify, showing strong confidence in its future. The Progressive Corporation is a top pick for Bank of America. It’s a leading auto insurer known for its solid finances and growth potential. This makes it a great choice for investors looking for steady dividends and long-term gains. Alphabet, the parent of Google, is a favorite among Bank of America’s picks. Its strong market position, innovative products, and solid finances appeal to tech investors. Despite a 4% drop in April, Alphabet has seen an 11% increase this year, showing its resilience and growth potential. Bank of America’s picks for the quarter offer a mix of growth, stability, and income potential. These stocks can help investors understand the bank’s strategy and find new opportunities for their portfolios.",
+      "topic": "best picks to buy stocks",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    }
+  ],
+  "log": [
+    {
+      "topic": "AI news",
+      "topic_id": "c380242219",
+      "depth": 1,
+      "plan": {
+        "queries": [
+          "AI news latest news past 48 hours",
+          "AI news announcement OR launch OR unveils past 3 days",
+          "AI news breakthrough OR benchmark OR SOTA past week",
+          "AI news report OR analysis OR deep dive past week",
+          "AI news GitHub release OR repo trending past week"
+        ],
+        "rationale": "broad-first",
+        "expected_signals": []
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "The preview items are broad and mostly opinion or high-level funding chatter; unclear if there are concrete, novel developments (e.g., new model releases, regulatory actions, landmark partnerships, or significant technical breakthroughs) within the last 48 hours. Need to validate substance and recency beyond newsletters and commentary.",
+        "next_focus": [
+          "site:reuters.com OR site:bloomberg.com OR site:wsj.com (\"announces\" OR \"unveils\" OR \"launches\") (\"AI\" OR \"model\" OR \"chip\") past 2 days",
+          "(\"SEC\" OR \"FTC\" OR \"EU\" OR \"UK CMA\") (\"AI\" OR \"foundation models\") (\"fine\" OR \"investigation\" OR \"rule\") past 48 hours",
+          "(\"OpenAI\" OR \"Google DeepMind\" OR \"Anthropic\" OR \"Meta AI\" OR \"NVIDIA\") (\"partnership\" OR \"acquires\" OR \"licensing deal\") past 48 hours"
+        ]
+      },
+      "found_raw": 30,
+      "kept": 20,
+      "dropped_old": 9,
+      "dropped_src": 0,
+      "ts": "2025-08-02T10:09:44"
+    },
+    {
+      "topic": "big tech",
+      "topic_id": "3093f4f761",
+      "depth": 1,
+      "plan": {
+        "queries": [
+          "big tech latest news past 48 hours",
+          "big tech announcement OR launch OR unveils past 3 days",
+          "big tech breakthrough OR benchmark OR SOTA past week",
+          "big tech report OR analysis OR deep dive past week",
+          "big tech GitHub release OR repo trending past week"
+        ],
+        "rationale": "broad-first",
+        "expected_signals": []
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "The previews are mixed in recency and credibility, with some links likely outdated or generic and lacking concrete, verifiable developments specific to the last 48 hours. No singular strong, novel, and well-corroborated signal emerges from this set.",
+        "next_focus": [
+          "Cross-check Big Tech earnings/AI capex updates in the last 48 hours (Alphabet, Microsoft, Meta, Amazon, Apple) via company IR pages and major wires (Bloomberg, Reuters).",
+          "Verify any regulatory/legal outcomes impacting Big Tech in the last 48 hours (EU/US antitrust, Apple tax rulings) via EU Court of Justice/Commission press releases and credible outlets.",
+          "Scan for new product/roadmap announcements (Apple, X/Twitter, Amazon Robotics) confirmed by official blogs or press releases within the window."
+        ]
+      },
+      "found_raw": 29,
+      "kept": 14,
+      "dropped_old": 11,
+      "dropped_src": 0,
+      "ts": "2025-08-02T10:10:15"
+    },
+    {
+      "topic": "stock market - polish",
+      "topic_id": "733550c688",
+      "depth": 1,
+      "plan": {
+        "queries": [
+          "stock market - polish latest news past 48 hours",
+          "stock market - polish announcement OR launch OR unveils past 3 days",
+          "stock market - polish breakthrough OR benchmark OR SOTA past week",
+          "stock market - polish report OR analysis OR deep dive past week",
+          "stock market - polish GitHub release OR repo trending past week"
+        ],
+        "rationale": "broad-first",
+        "expected_signals": []
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "Current items are either general interest, promotional, or tooling and do not provide strong, novel, or clearly credible market-moving signals specific to the Polish stock market in the last 48 hours. Need primary sources (indexes, blue chips), macro/policy catalysts, and credible financial media.",
+        "next_focus": [
+          "Check official index performance and sector moves: WIG, WIG20, mWIG40, sWIG80 over last 2 days from GPW (gpw.pl) and Bloomberg/Reuters to verify the reported gains and sector leaders.",
+          "Scan credible news for catalysts: NBP policy signals, CPI/PMI prints, FX (PLN vs EUR/USD), fiscal policy updates, energy prices, and company-specific news for WIG20 constituents (PKO, PKN Orlen, KGHM, PZU, CD Projekt).",
+          "Look for earnings/pre-announcements or guidance changes from major Polish listings in the past 48 hours via ESPI/EBI filings and GPW news feeds.",
+          "site:reuters.com OR site:bloomberg.com AI capex OR AI spending OR earnings past 48 hours",
+          "site:microsoft.com/en-us/investor OR site:investors.nvidia.com OR site:ir.amazon.com OR site:alphabet.com OR site:abc.xyz past 48 hours transcript OR remarks AI OR capex",
+          "site:openai.com/blog OR site:deepmind.google OR site:ai.meta.com/blog past 7 days (introducing OR release OR model OR benchmark)"
+        ]
+      },
+      "found_raw": 23,
+      "kept": 4,
+      "dropped_old": 17,
+      "dropped_src": 0,
+      "ts": "2025-08-02T10:10:47"
+    },
+    {
+      "topic": "best picks to buy stocks",
+      "topic_id": "7160a674b2",
+      "depth": 1,
+      "plan": {
+        "queries": [
+          "best picks to buy stocks latest news past 48 hours",
+          "best picks to buy stocks announcement OR launch OR unveils past 3 days",
+          "best picks to buy stocks breakthrough OR benchmark OR SOTA past week",
+          "best picks to buy stocks report OR analysis OR deep dive past week",
+          "best picks to buy stocks GitHub release OR repo trending past week"
+        ],
+        "rationale": "broad-first",
+        "expected_signals": []
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "The preview links are generic listicles and evergreen content, not strong or novel signals within the last 48 hours. Credibility varies (blogs, listicles), and none provide time-sensitive catalysts or consensus shifts needed for best near-term buys.",
+        "next_focus": [
+          "Identify credible, time-stamped catalysts in last 48h (earnings beats/guides, FDA approvals, large contracts, regulatory changes) from primary sources (company 8-Ks, press releases) and top-tier outlets.",
+          "Screen for sectors with fresh momentum or dislocations in last 48h (AI infra, semis supply updates, energy/OPEC moves, rate-sensitive financials post-Fed remarks) using market summaries and sector breadth data.",
+          "Query for analyst upgrades/downgrades with material target changes in last 48h from reputable brokers and aggregated by Bloomberg/Reuters/FactSet to surface high-conviction, novel picks."
+        ]
+      },
+      "found_raw": 27,
+      "kept": 7,
+      "dropped_old": 14,
+      "dropped_src": 0,
+      "ts": "2025-08-02T10:12:50"
+    }
+  ],
+  "summary": {
+    "topics": [
+      "AI news",
+      "big tech",
+      "stock market - polish",
+      "best picks to buy stocks"
+    ],
+    "window": "last 48 hours",
+    "max_depth": 3,
+    "count": 17,
+    "topic_limit": 5
+  }
+}

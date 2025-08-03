@@ -1,0 +1,424 @@
+{
+  "run_id": "2025-08-03",
+  "items": [
+    {
+      "item_id": "2025-08-03-c3b2f0f3ac",
+      "title": "Blue-collar revenge: The things AI can't do are making a comeback",
+      "url": "https://www.axios.com/2025/08/02/ai-blue-collar-labor",
+      "source": "axios",
+      "source_quality": "low",
+      "published_at": "2025-08-02",
+      "snippet": "As artificial intelligence continues to upend white-collar professions, blue-collar skilled trades are experiencing a resurgence in value. While AI is anticipated to replace millions of office jobs, hands-on roles like plumbing, welding, and electrical work remain largely \"AI-proof.\" Corporations are benefiting financially from AI's labor efficiencies, prompting a shift in workforce demands. However, trades that require physical presence and human skill are becoming more essential, especially as AI infrastructure—such as data centers—requires human maintenance and installation. Public figures, such as Mike Rowe, are highlighting this shift, noting that for years society pushed for coding skills, but now many coding jobs are at risk due to AI advancements. Conversely, skilled trades face a labor shortage, with U.S. factories short roughly 450,000 workers monthly. Training more individuals in these trades is vital, demanding a nationwide effort targeting not only students but also mid-career professionals needing retraining. While AI is revolutionizing many fields, it cannot replace human expertise in many blue-collar roles, making these jobs more critical—and potentially more lucrative—than ever.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-03-c715f8f5ca",
+      "title": "stdlib-js/stdlib",
+      "url": "https://github.com/stdlib-js/stdlib",
+      "source": "repositorystats",
+      "source_quality": "low",
+      "published_at": "2025-08-03",
+      "snippet": "Standard library for JavaScript and Node.js. ([repositorystats.com](https://repositorystats.com/topic/science?utm_source=openai))",
+      "topic": "science",
+      "depth": 1,
+      "tags": [
+        "hype",
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-03-86e6065383",
+      "title": "academic/awesome-datascience",
+      "url": "https://github.com/academic/awesome-datascience",
+      "source": "repositorystats",
+      "source_quality": "low",
+      "published_at": "2025-08-03",
+      "snippet": "An awesome Data Science repository to learn and apply for real world problems. ([repositorystats.com](https://repositorystats.com/topic/science?utm_source=openai))",
+      "topic": "science",
+      "depth": 1,
+      "tags": [
+        "hype",
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-03-462a8dc0e6",
+      "title": "Open-source AI narrows gap with proprietary leaders, new benchmark reveals",
+      "url": "https://venturebeat.com/ai/open-source-ai-narrows-gap-with-tech-giants-new-benchmark-reveals/",
+      "source": "venturebeat",
+      "source_quality": "low",
+      "published_at": "2025-07-28",
+      "snippet": "A comprehensive benchmark by Galileo reveals that open-source language models are rapidly closing the performance gap with proprietary counterparts, potentially reshaping the AI landscape and accelerating innovation across industries.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": [
+        "hype",
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-03-566a081d5e",
+      "title": "Google releases MedGemma: Open AI for clinical reasoning",
+      "url": "https://www.linkedin.com/pulse/ai-week-review-sota-intelligence-worst-trust-yet-aj-green-ibkmc",
+      "source": "linkedin",
+      "source_quality": "low",
+      "published_at": "2025-07-30",
+      "snippet": "Google DeepMind has released MedGemma, its most powerful open-source health models yet, designed to analyze clinical imagery and contribute meaningfully to medical reasoning and decision support, marking a practical shift in AI's role in healthcare.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": [
+        "hype",
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-03-e3fdd2417a",
+      "title": "How US adults are using AI, according to AP-NORC polling",
+      "url": "https://apnews.com/article/229b665d10d057441a69f56648b973e1",
+      "source": "ap news",
+      "source_quality": "low",
+      "published_at": "2025-07-30",
+      "snippet": "A recent AP-NORC poll reveals how American adults are engaging with artificial intelligence (AI). While 60% of adults—and 74% of those under 30—use AI to search for information, fewer utilize it for tasks like work, drafting emails, shopping, or entertainment. Younger adults are significantly more likely to turn to AI for brainstorming, with about 60% of those under 30 using it for idea generation, compared to just 20% of those over 60. Searching for information remains the most common use of AI, though people like 28-year-old data scientist Sanaa Wilson skip over AI-generated summaries for more trustworthy sources on complex topics. Others, like audiologist Courtney Thayer, use AI for health-related tasks (e.g., meal planning) yet avoid relying on it for medical advice due to concerns about accuracy. Only about 4 in 10 respondents use AI for work, and one-third use it for writing emails or editing images. Approximately 25% use it for shopping. AI companionship is the least common use, with fewer than 20% overall, although usage is higher among young adults. The findings reflect both increasing AI integration and generational differences in tech adoption across the U.S.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-03-9e8ed6b706",
+      "title": "Tech giants ramp up spending as AI starts to deliver",
+      "url": "https://www.axios.com/2025/08/01/ai-earnings-google-microsoft-meta-stocks",
+      "source": "axios",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "Microsoft, Google, and Meta are significantly increasing investments in data centers and computing infrastructure as AI begins to generate real revenue. Despite strong quarterly earnings, these companies are reinvesting heavily in AI infrastructure, signaling their belief that the AI boom is still in its early stages. This surge in spending has also helped Nvidia become the first $4 trillion company by market capitalization, with Microsoft following as the second.",
+      "topic": "big tech",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-03-17dd7d06ce",
+      "title": "Investors glimpse pay-off for Big Tech's mammoth spending on AI arms race",
+      "url": "https://www.ft.com/content/6da2e1fd-f606-4e82-ad74-acecfceeac4e",
+      "source": "financial times",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "Big Tech companies are beginning to realize returns on their substantial investments in artificial intelligence (AI), leading to a surge in investor confidence and market valuations. Microsoft, Alphabet, and Meta collectively added over $350 billion in market value, with Microsoft hitting a $4 trillion valuation and Meta nearing $2 trillion. Strong growth in cloud computing and advertising efficiency, attributed to AI innovations, has justified continued high capital expenditures, projected to exceed $400 billion in 2026.",
+      "topic": "big tech",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-03-cf2edba635",
+      "title": "Big Tech's acquihire deals face regulatory scrutiny, outgoing EU antitrust official says",
+      "url": "https://www.reuters.com/sustainability/boards-policy-regulation/big-techs-acquihire-deals-face-regulatory-scrutiny-outgoing-eu-antitrust-2025-08-01/",
+      "source": "reuters",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "The outgoing head of the European Commission's antitrust unit, Olivier Guersent, stated that Big Tech's \"acquihire\" strategies—where tech giants hire key personnel from startups instead of acquiring the companies—are coming under increasing regulatory scrutiny. These maneuvers have largely avoided merger regulations, but Guersent emphasized that hiring staff, especially founders and senior executives, can constitute a merger since staff form part of a company’s assets.",
+      "topic": "big tech",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-03-3faca92cd0",
+      "title": "Microsoft's in the $4 trillion club: Why Big Tech may have a problem.",
+      "url": "https://www.axios.com/2025/07/31/microsoft-amazon-apple-big-tech",
+      "source": "axios",
+      "source_quality": "low",
+      "published_at": "2025-07-31",
+      "snippet": "As of July 2025, Microsoft has joined the exclusive $4 trillion market valuation club, alongside Nvidia, placing it among the top tech giants by market cap. Other major companies from the “Magnificent 7” — including Apple, Amazon, Alphabet, and Meta — are closing in on this milestone. This surge in valuation, driven by booming AI-related growth and strong earnings (particularly from Microsoft and Meta), is raising concerns among investors. Some analysts warn that Microsoft’s high valuation—trading at 40 times forward earnings—may be unsustainable, and that such inflated stocks are typically vulnerable during market downturns.",
+      "topic": "big tech",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-03-3850a8d088",
+      "title": "Network fee on Big Tech not a viable solution to boost EU digital rollout, EU says",
+      "url": "https://www.reuters.com/business/media-telecom/network-fee-big-tech-not-viable-solution-boost-eu-digital-rollout-eu-says-2025-07-31/",
+      "source": "reuters",
+      "source_quality": "low",
+      "published_at": "2025-07-31",
+      "snippet": "The European Commission has declared that imposing network fees on Big Tech companies is not a viable solution for funding the rollout of 5G and broadband infrastructure across the EU. This position addresses a long-standing dispute between European telecom operators—such as Deutsche Telekom, Orange, Telefonica, and Telecom Italia—and major U.S.-based tech firms like Google, Meta, Netflix, Microsoft, and Amazon. Telecom firms argue that Big Tech should contribute more due to the high volume of traffic they generate, while tech companies argue such fees amount to an internet tax and point to their own investments in service efficiency.",
+      "topic": "big tech",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-03-d494cbd713",
+      "title": "Warsaw archbishop asks Vatican to defrock Polish priest charged with the killing of a homeless man",
+      "url": "https://apnews.com/article/94a17ada2e3f77a5ab39a3310e78c504",
+      "source": "ap news",
+      "source_quality": "low",
+      "published_at": "2025-07-29",
+      "snippet": "In Warsaw, Poland, Archbishop Adrian Galbas has requested the Vatican to defrock a priest, identified only as Mirosław M., who has been charged with the brutal murder of a 68-year-old homeless man, Anatol Cz. Prosecutors stated that the two were in a car when an argument erupted over a donation agreement in which the priest had committed to providing lifelong care to the man. The altercation escalated, leading the priest to allegedly strike the victim with an ax, douse him in flammable liquid, and set him on fire before fleeing the scene. A bicyclist discovered the burning man and alerted emergency services. The victim died from burns covering 80% of his body and severe head injuries. Archbishop Galbas expressed deep sadness over the incident and pledged full cooperation with the investigation. He also urged the Catholic faithful to pray for the victim. The Vatican has not yet commented on the request for defrocking.",
+      "topic": "interesting in poland",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-03-1a92c807e9",
+      "title": "The Week AI Research Went Into Overdrive",
+      "url": "https://www.linkedin.com/pulse/week-ai-research-went-overdrive-justin-h-johnson-a629e",
+      "source": "linkedin",
+      "source_quality": "low",
+      "published_at": "2025-07-30",
+      "snippet": "This week delivered an unprecedented surge of breakthrough research across every domain of artificial intelligence, including revolutionary attention mechanisms and AI scientists that draft their own papers.",
+      "topic": "science",
+      "depth": 1,
+      "tags": [
+        "hype",
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-03-31b62642eb",
+      "title": "ICML 2025: Is Correctness the New State-of-the-Art?",
+      "url": "https://toxigon.com/breakthrough-at-icml-2025-correctness-over-sota",
+      "source": "toxigon",
+      "source_quality": "low",
+      "published_at": "2025-07-30",
+      "snippet": "A discussion on the limitations of benchmarks and the importance of focusing on correctness, robustness, and explainability in building truly useful and reliable machine learning models.",
+      "topic": "science",
+      "depth": 1,
+      "tags": [
+        "hype",
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-03-6d6fb80a07",
+      "title": "Chinese Startup DeepSeek Upstages Meta and OpenAI in AI Benchmark Showdown",
+      "url": "https://opentools.ai/news/chinese-startup-deepseek-upstages-meta-and-openai-in-ai-benchmark-showdown",
+      "source": "opentools ai",
+      "source_quality": "low",
+      "published_at": "2025-07-30",
+      "snippet": "Chinese startup DeepSeek's latest model, DeepSeek V3, has outperformed Meta and OpenAI in recent AI benchmarks, signaling a significant shift in the global AI race dynamics and positioning Chinese enterprises as formidable competitors.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": [
+        "hype",
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-03-633e12562d",
+      "title": "Scientists shrink the genetic code of E. coli to contain only 57 of its usual 64 codons",
+      "url": "https://phys.org/news/2025-08-scientists-shrink-genetic-code-coli.html",
+      "source": "phys.org",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "The DNA of nearly all life on Earth contains many redundancies, and scientists have long wondered whether these redundancies served a purpose or if they were just leftovers from evolutionary processes. Both DNA and RNA contain codons—sequences of three nucleotides that correspond to specific amino acids or stop signals during protein synthesis. In a new study, scientists have demonstrated that they can shrink the genetic code of E. coli bacteria to contain only 57 of its usual 64 codons. This reduction was achieved by eliminating seven codons that are rarely used in the bacterium's natural environment. The researchers believe that this simplification could lead to more efficient protein production and a better understanding of the genetic code's redundancy.",
+      "topic": "science",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-03-6e02de60c8",
+      "title": "Poland last on list for US troop cuts in Europe, Polish defence ministry says",
+      "url": "https://www.reuters.com/business/finance/poland-last-list-us-troop-cuts-europe-polish-defence-ministry-says-2025-07-31/",
+      "source": "reuters",
+      "source_quality": "low",
+      "published_at": "2025-07-31",
+      "snippet": "Poland is expected to be the last European country affected by potential U.S. troop reductions, according to Deputy Defence Minister Pawel Zalewski. As Washington considers scaling back its military presence across Europe, Zalewski emphasized that American troops stationed in Poland play a strategic role in deterring Russian aggression, especially following Russia's 2022 invasion of Ukraine. Poland, NATO's top defence spender relative to GDP, has significantly increased defence investments and modernized its military, acquiring U.S. equipment such as Abrams tanks, HIMARS rocket systems, Patriot missiles, F-16s, F-35s, and Apache helicopters. Zalewski highlighted Poland’s aspiration to become the central hub for the U.S. military presence in Europe, proposing roles such as logistics, servicing, and production for American defence systems. He argued that, given Poland’s proximity to the conflict zones, it makes more sense than Germany—formerly a U.S. military hub during the Cold War—to be the focal point for allied operations in the region. Poland is set to spend 4.7% of its GDP on defence in 2025, with plans to raise it to 5% in 2026.",
+      "topic": "interesting in poland",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-03-541eea07d3",
+      "title": "Poland says 32 people detained and suspected of coordinating with Russia for sabotage",
+      "url": "https://apnews.com/article/4b3cfe0ea3a9d8f9c6147f3c573363dd",
+      "source": "ap news",
+      "source_quality": "low",
+      "published_at": "2025-07-30",
+      "snippet": "Polish Prime Minister Donald Tusk announced the detention of 32 individuals suspected of collaborating with Russia to conduct sabotage activities in Poland. According to the Polish news agency PAP, the detainees comprise nationals from Poland, Russia, Ukraine, Belarus, and a 27-year-old Colombian man. This Colombian suspect is accused of executing two arson attacks on construction warehouses in May 2024, allegedly under the direction of Russian intelligence, and could face 10 years to life in prison. While one person has already been convicted, the rest remain in custody awaiting trial. The Polish Internal Security Agency revealed that the Colombian received instructions, including how to create Molotov cocktails, from a Russian intelligence contact. Further specific information on the sabotage or the suspects has not yet been disclosed.",
+      "topic": "interesting in poland",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-03-9513732c06",
+      "title": "Poland signs contract to buy more South Korean battle tanks",
+      "url": "https://www.reuters.com/markets/emerging/poland-signs-contract-buy-more-south-korean-battle-tanks-2025-08-01/",
+      "source": "reuters",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "Poland has signed a second major contract with South Korea's Hyundai Rotem for the purchase of 180 battle tanks, strengthening its military capabilities in response to Russia's invasion of Ukraine. This follows an earlier 2022 agreement for another 180 K2 tanks. The new contract, reportedly worth $6.5 billion, includes a significant manufacturing component in Poland, with 61 tanks to be produced at the Bumar-Labedny plant in Gliwice. This initiative is part of Poland’s broader defense strategy, allocating 4.7% of its GDP to defense in 2025, with plans to increase it to 5% in 2026. The agreement not only includes tanks but also support vehicles and comprehensive training, service, and repair packages. Polish Defense Minister Wladyslaw Kosiniak-Kamysz emphasized the importance of domestic arms manufacturing and technology transfer in strengthening Poland’s defense industry and economy. First tank deliveries are scheduled for 2026, with domestic production expected between 2028 and 2030.",
+      "topic": "interesting in poland",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    },
+    {
+      "item_id": "2025-08-03-25ea384a60",
+      "title": "Saleor",
+      "url": "https://github.com/mirumee/saleor",
+      "source": "github",
+      "source_quality": "low",
+      "published_at": "2025-08-03",
+      "snippet": "Saleor Core: the high performance, composable, headless commerce API.",
+      "topic": "interesting in poland",
+      "depth": 1,
+      "tags": [
+        "uncertain"
+      ]
+    }
+  ],
+  "log": [
+    {
+      "topic": "AI news",
+      "topic_id": "acfadd83c8",
+      "depth": 1,
+      "plan": {
+        "queries": [
+          "AI news latest news past 48 hours",
+          "AI news announcement OR launch OR unveils past 3 days",
+          "AI news breakthrough OR benchmark OR SOTA past week",
+          "AI news report OR analysis OR deep dive past week",
+          "AI news GitHub release OR repo trending past week"
+        ],
+        "rationale": "broad-first",
+        "expected_signals": []
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "The provided previews include notable claims (e.g., OpenAI 03 scoring 87.5% on ARC-AGI, DeepSeek outperforming leaders, Google MedGemma) but sources include newsletters/aggregators (Judgy AI, OpenTools, LinkedIn posts) that require verification. Need confirmation from primary/credible outlets within last 48 hours before declaring strong, novel signals.",
+        "next_focus": [
+          "Verify OpenAI 03 ARC-AGI result from primary sources (OpenAI blog, arXiv paper, official benchmark maintainers).",
+          "Corroborate DeepSeek benchmark claims via peer benchmarks or reputable tech media (e.g., Nature, MIT Tech Review, The Verge).",
+          "Confirm Google MedGemma release via Google Research/DeepMind blog or GitHub and check scope (clinical reasoning, licensing, benchmarks)."
+        ]
+      },
+      "found_raw": 23,
+      "kept": 13,
+      "dropped_old": 10,
+      "dropped_src": 0,
+      "ts": "2025-08-03T09:11:52"
+    },
+    {
+      "topic": "big tech",
+      "topic_id": "80261b0501",
+      "depth": 1,
+      "plan": {
+        "queries": [
+          "big tech latest news past 48 hours",
+          "big tech announcement OR launch OR unveils past 3 days",
+          "big tech breakthrough OR benchmark OR SOTA past week",
+          "big tech report OR analysis OR deep dive past week",
+          "big tech GitHub release OR repo trending past week"
+        ],
+        "rationale": "broad-first",
+        "expected_signals": []
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "Recent clips look generic (earnings spend ramps, valuation milestones, EU scrutiny/network fees). Lacking specific, verifiable new developments within last 48 hours such as concrete regulatory actions, earnings datapoints, M&A, product launches, or legal rulings. Need targeted checks to confirm any strong novel signals.",
+        "next_focus": [
+          "Check official earnings releases and call transcripts for Apple, Amazon, Alphabet, Microsoft, Meta in last 48h for concrete AI capex, revenue contribution, and guidance shifts",
+          "Verify any new regulatory actions: EU/US antitrust filings or statements on acquihires or network fees from EC, DOJ, FTC official sites and press rooms",
+          "Scan for notable product or model launches or outages from Big Tech (e.g., OpenAI, Google, Microsoft, Meta, Amazon) via company blogs and developer updates within 48h"
+        ]
+      },
+      "found_raw": 32,
+      "kept": 9,
+      "dropped_old": 22,
+      "dropped_src": 0,
+      "ts": "2025-08-03T09:12:33"
+    },
+    {
+      "topic": "science",
+      "topic_id": "3626ea2ee8",
+      "depth": 1,
+      "plan": {
+        "queries": [
+          "science latest news past 48 hours",
+          "science announcement OR launch OR unveils past 3 days",
+          "science breakthrough OR benchmark OR SOTA past week",
+          "science report OR analysis OR deep dive past week",
+          "science GitHub release OR repo trending past week"
+        ],
+        "rationale": "broad-first",
+        "expected_signals": []
+      },
+      "decision": {
+        "action": "stop",
+        "reason": "The E. coli genetic code shrink to 57 codons is a strong, novel, credible breakthrough in synthetic biology with clear primary-source style reporting; additional signals are less directly science-novelty. This meets the threshold to stop.",
+        "next_focus": []
+      },
+      "found_raw": 31,
+      "kept": 11,
+      "dropped_old": 19,
+      "dropped_src": 0,
+      "ts": "2025-08-03T09:13:16"
+    },
+    {
+      "topic": "interesting in poland",
+      "topic_id": "a21509add8",
+      "depth": 1,
+      "plan": {
+        "queries": [
+          "interesting in poland latest news past 48 hours",
+          "interesting in poland announcement OR launch OR unveils past 3 days",
+          "interesting in poland breakthrough OR benchmark OR SOTA past week",
+          "interesting in poland report OR analysis OR deep dive past week",
+          "interesting in poland GitHub release OR repo trending past week"
+        ],
+        "rationale": "broad-first",
+        "expected_signals": []
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "Preview items mix hard news and general repos; need to verify recency and impact within last 48 hours, confirm novelty (e.g., troop cuts stance, sabotage arrests, tank contract) and filter out evergreen GitHub repos.",
+        "next_focus": [
+          "site:reuters.com Poland AND (US troops OR Europe) past 48 hours",
+          "site:apnews.com Poland sabotage detained 32 past 2 days",
+          "Poland South Korean tanks contract date confirmation site:reuters.com OR site:yonhapnews.co.kr",
+          "Warsaw archbishop defrock priest homeless killing site:apnews.com past 2 days",
+          "Poland tech/startup notable releases past 48 hours site:github.com topic:Poland OR Warsaw maintainers"
+        ]
+      },
+      "found_raw": 26,
+      "kept": 12,
+      "dropped_old": 14,
+      "dropped_src": 0,
+      "ts": "2025-08-03T09:14:03"
+    }
+  ],
+  "summary": {
+    "topics": [
+      "AI news",
+      "big tech",
+      "science",
+      "interesting in poland"
+    ],
+    "window": "last 48 hours",
+    "max_depth": 3,
+    "count": 20,
+    "topic_limit": 5
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "run_id": "2025-08-02",
+  "items": [
+    {
+      "item_id": "2025-08-02-fe07c8190a",
+      "title": "AI's spend cycle",
+      "url": "https://www.axios.com/newsletters/axios-ai-plus-efcf11cf-d66b-453c-9d1f-d50774376983",
+      "source": "axios",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "The August 1, 2025 edition of Axios AI+ covers the intensifying AI spend cycle, focusing on massive investments by major tech firms. OpenAI has raised $8.3 billion at a $300 billion valuation, with growing annual recurring revenue of $13 billion and 5 million business subscribers for ChatGPT. Tech giants like Microsoft, Google, Meta, and Apple are reinvesting AI revenues into infrastructure, driving Nvidia's market value to $4 trillion. Microsoft alone plans $100 billion in capital expenses next year, mostly AI-driven. Despite strong earnings from some companies, investor skepticism remains, especially with Amazon’s AI strategy.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": []
+    },
+    {
+      "item_id": "2025-08-02-a28fca0430",
+      "title": "Alphabet's CapitalG, Nvidia in talks to fund Vast Data at up to $30 billion valuation, sources say",
+      "url": "https://www.reuters.com/business/alphabets-capitalg-nvidia-talks-fund-vast-data-up-30-billion-valuation-sources-2025-08-01/",
+      "source": "reuters",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "Alphabet's growth-stage venture arm CapitalG and Nvidia are reportedly in talks to invest in Vast Data, a startup specializing in AI infrastructure, in a funding round that could value the company at up to $30 billion. This substantial investment round, which includes tech giants, private equity, and venture capital firms, highlights the increasing value of data infrastructure providers amid the AI boom. Vast Data, headquartered in New York, offers storage technology tailored for AI data centers, facilitating efficient data transfer between GPUs such as those made by Nvidia. Its clients include xAI and CoreWeave.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": []
+    },
+    {
+      "item_id": "2025-08-02-d56913d567",
+      "title": "Big Tech's AI spend is still a shot in the dark",
+      "url": "https://www.ft.com/content/7fea95f3-64dd-498d-bf6a-e01d0523b3d4",
+      "source": "financial times",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "As of mid-2025, Big Tech companies such as Meta and Microsoft are investing billions into generative AI, but the return on this investment remains uncertain. Though both firms posted strong earnings, these gains are largely unrelated to generative AI. Meta’s current AI advancements are mainly in traditional models improving ad targeting and content personalization, not generative AI. Nevertheless, CEO Mark Zuckerberg remains optimistic, planning a $100 billion investment in 2026 with an eye toward \"personal superintelligence\" for users—but acknowledges little near-term revenue impact.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": []
+    },
+    {
+      "item_id": "2025-08-02-4b84bee717",
+      "title": "Robinhood CEO: Human traders are safe from AI",
+      "url": "https://www.axios.com/2025/08/01/ai-robinhood-anthropic-openai-traders",
+      "source": "axios",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "Robinhood CEO Vlad Tenev has expressed confidence that human traders will not be replaced by AI in the near future, despite widespread concerns about artificial intelligence disrupting white-collar jobs. Speaking to Axios, Tenev emphasized that trading remains a deeply human activity that people enjoy, suggesting that human decision-making will continue to play a central role in the financial sector.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": []
+    },
+    {
+      "item_id": "2025-08-02-ec5d3b8a1e",
+      "title": "McDonald's plans to 'double down' on AI investment by 2027, senior exec says",
+      "url": "https://www.reuters.com/business/mcdonalds-plans-double-down-ai-investment-by-2027-senior-exec-says-2025-08-01/",
+      "source": "reuters",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "McDonald's plans to significantly increase its investment in artificial intelligence (AI) by 2027, focusing on expanding its capabilities in data governance, engineering, and platform architecture, particularly in India. Deshant Kaila, the company’s head of Global Business Services operations, stated that while precise investment figures are not yet defined due to the early stage of the initiative, the primary expenditure will be directed toward technology and tools rather than expanding staff. The strategy underscores McDonald’s commitment to leveraging AI for business transformation and identifies India as a strategic hub for developing its AI infrastructure.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": []
+    },
+    {
+      "item_id": "2025-08-02-7e339f0b3e",
+      "title": "Will AI put fiction writers out of work?",
+      "url": "https://www.ft.com/content/7ce8a0c4-f806-44e4-96f5-8cae8772c97c",
+      "source": "financial times",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "The growing influence of AI in creative industries has sparked controversy, particularly in literature. A prediction by Philip Stone from Nielsen that AI might produce a bestseller by 2030 stirred backlash in the UK publishing scene. Though Stone's comment was about simple formats like coloring or joke books, many feared broader implications for fiction writers. Concerns stem from AI models having been trained on authors' works without consent, and fears AI-generated text could replace human fiction.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": []
+    },
+    {
+      "item_id": "2025-08-02-a07d70bf7d",
+      "title": "DARC: Decentralized Autonomous Regulated Company",
+      "url": "https://github.com/Project-DARC/DARC",
+      "source": "github",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "DARC is a virtual company machine that operates on EVM-compatible blockchains, featuring an on-chain law system and multi-level tokens.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": []
+    },
+    {
+      "item_id": "2025-08-02-8ad1f6ee93",
+      "title": "OpenInterpreter: Natural Language Interface for Computers",
+      "url": "https://github.com/OpenInterpreter/open-interpreter",
+      "source": "github",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "OpenInterpreter provides a natural language interface for computers, allowing users to interact with their systems using conversational commands.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": []
+    },
+    {
+      "item_id": "2025-08-02-c76594c12c",
+      "title": "Awesome Generative AI Guide",
+      "url": "https://github.com/aishwaryanr/awesome-generative-ai-guide",
+      "source": "github",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "A curated list of resources for generative AI research, including updates, interview materials, and practical notebooks.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": []
+    },
+    {
+      "item_id": "2025-08-02-462a8dc0e6",
+      "title": "Open-source AI narrows gap with proprietary leaders, new benchmark reveals",
+      "url": "https://venturebeat.com/ai/open-source-ai-narrows-gap-with-tech-giants-new-benchmark-reveals/",
+      "source": "venturebeat",
+      "source_quality": "low",
+      "published_at": "2025-07-28",
+      "snippet": "A new benchmark by AI startup Galileo shows that open-source language models are rapidly closing the performance gap with proprietary counterparts, potentially reshaping the AI landscape and accelerating innovation across industries.",
+      "topic": "AI news",
+      "depth": 1,
+      "tags": [
+        "hype"
+      ]
+    }
+  ],
+  "log": [
+    {
+      "topic": "AI news",
+      "topic_id": "c380242219",
+      "depth": 1,
+      "plan": {
+        "queries": [
+          "AI news latest news past 48 hours",
+          "AI news announcement OR launch OR unveils past 3 days",
+          "AI news breakthrough OR benchmark OR SOTA past week",
+          "AI news report OR analysis OR deep dive past week",
+          "AI news GitHub release OR repo trending past week"
+        ],
+        "rationale": "broad-first",
+        "expected_signals": []
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "Preview items are broad and mixed; unclear which are truly novel, well-sourced signals vs commentary. Need to verify timing, substance, and corroboration (deal terms, capex guidance, concrete deployments).",
+        "next_focus": [
+          "Confirm Reuters report details on CapitalG/Nvidia funding Vast Data: deal stage, valuation range, participants, strategic rationale, and any SEC/press releases.",
+          "Validate corporate AI capex/ROI signals: Big Tech Q2 earnings call transcripts for explicit AI capex updates, utilization metrics, and margin impacts; cross-check Axios/FT takes.",
+          "Check enterprise adoption specifics: McDonald’s AI roadmap (official statements, pilot results, vendor partners, timelines) and any disclosed KPIs or cost savings."
+        ]
+      },
+      "found_raw": 30,
+      "kept": 22,
+      "dropped_old": 7,
+      "dropped_src": 0,
+      "ts": "2025-08-02T09:12:54"
+    }
+  ],
+  "summary": {
+    "topics": [
+      "AI news",
+      "big tech",
+      "stock market - polish",
+      "best picks to buy stocks"
+    ],
+    "window": "last 48 hours",
+    "max_depth": 3,
+    "count": 10
+  }
+}

@@ -1,0 +1,575 @@
+{
+  "run_id": "2025-08-02",
+  "items": [
+    {
+      "item_id": "2025-08-02-687e40f264",
+      "title": "Triton Inference Server",
+      "url": "https://github.com/triton-inference-server/server",
+      "source": "repositorystats",
+      "published_at": "2025-08-02",
+      "snippet": "The Triton Inference Server provides an optimized cloud and edge inferencing solution.",
+      "topic": "AI advancements",
+      "depth": 2
+    },
+    {
+      "item_id": "2025-08-02-058485af22",
+      "title": "AutoGPTQ",
+      "url": "https://github.com/AutoGPTQ/AutoGPTQ",
+      "source": "repositorystats",
+      "published_at": "2025-08-02",
+      "snippet": "An easy-to-use LLMs quantization package with user-friendly APIs, based on GPTQ algorithm.",
+      "topic": "AI advancements",
+      "depth": 2
+    },
+    {
+      "item_id": "2025-08-02-6fc607d158",
+      "title": "PyTorch AO",
+      "url": "https://github.com/pytorch/ao",
+      "source": "repositorystats",
+      "published_at": "2025-08-02",
+      "snippet": "PyTorch native quantization and sparsity for training and inference.",
+      "topic": "AI advancements",
+      "depth": 2
+    },
+    {
+      "item_id": "2025-08-02-a04547bc4d",
+      "title": "DeepSparse",
+      "url": "https://github.com/neuralmagic/deepsparse",
+      "source": "repositorystats",
+      "published_at": "2025-08-02",
+      "snippet": "Sparsity-aware deep learning inference runtime for CPUs.",
+      "topic": "AI advancements",
+      "depth": 2
+    },
+    {
+      "item_id": "2025-08-02-be36caa135",
+      "title": "Apt",
+      "url": "https://github.com/rnchg/Apt",
+      "source": "repositorystats",
+      "published_at": "2025-08-02",
+      "snippet": "AI Productivity Tool - Free and open-source, enhancing user productivity while ensuring privacy and data security.",
+      "topic": "AI advancements",
+      "depth": 2
+    }
+  ],
+  "log": [
+    {
+      "topic": "AI advancements",
+      "topic_id": "fb2ffca891",
+      "depth": 1,
+      "plan": {
+        "queries": [
+          "site:nature.com AI breakthrough OR model \"2024\" last 2 days",
+          "site:science.org artificial intelligence discovery past 2 days",
+          "site:arxiv.org \"large language model\" submitted within last 2 days"
+        ],
+        "rationale": "These queries target top-tier journals, leading AI labs, and fresh preprints to capture credible, high-impact breakthroughs within the last 48–72 hours, while also scanning major financial/regulatory outlets and GitHub for actionable releases.",
+        "expected_signals": [
+          "Peer-reviewed or embargo-lifted publications in Nature/Science on new AI capabilities or scientific applications",
+          "ArXiv submissions with strong institutional affiliations (DeepMind, OpenAI, Anthropic, FAIR, Microsoft, Google, Meta) and rapid early citations or social traction",
+          "Official lab blogs announcing new model families, safety evaluations, or state-of-the-art benchmarks with released code/models",
+          "GitHub releases or repos trending with new training/inference techniques, efficiency gains, or multimodal tool use",
+          "Regulatory or policy moves (EU, US, UK, China) affecting AI deployment or compute, with coverage by FT/WSJ",
+          "Industry partnerships or funding rounds enabling large-scale deployments or novel capabilities",
+          "Benchmarks showing statistically significant SOTA improvements with transparent methodology and datasets",
+          "Actionable artifacts: open-source weights, eval suites, datasets, or reproducible training recipes"
+        ]
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "No unequivocally strong, novel, and credibly verified breakthrough in the last 48 hours surfaced across major labs, tier-1 journals, or authoritative releases based on the provided preview context.",
+        "next_focus": [
+          "Query arXiv cs.AI/cs.LG last 2 days for terms: \"state-of-the-art\", \"scales to\", \"GPT-4-level\", \"new benchmark\", filter for well-known authors/labs (OpenAI, Google DeepMind, Anthropic, FAIR, Mistral, Meta)",
+          "Scan official org blogs/Twitter/X and press rooms (OpenAI, Google DeepMind, Anthropic, Meta AI, Microsoft Research, NVIDIA) for dated posts in the last 48 hours; prioritize posts with code/models or peer-reviewed claims",
+          "Check GitHub trending AI repos last 2 days for releases/tags mentioning model weights, inference kernels, or training stacks; verify with accompanying blog/paper for credibility"
+        ]
+      },
+      "found_raw": 1,
+      "kept": 0,
+      "dropped_old": 1,
+      "dropped_src": 0,
+      "ts": "2025-08-02T08:19:14"
+    },
+    {
+      "topic": "AI advancements",
+      "topic_id": "fb2ffca891",
+      "depth": 2,
+      "plan": {
+        "queries": [
+          "site:nature.com AI breakthrough OR model OR discovery past 2 days",
+          "site:science.org AI model OR algorithm OR robotics past 2 days",
+          "site:arxiv.org cat:cs.AI OR cs.LG submitted past 2 days foundation model"
+        ],
+        "rationale": "Target top-tier journals, leading labs, and preprint servers for cutting-edge results; include credible business and policy outlets for high-impact announcements. Use tight recency filters and institutional sites to prioritize verifiable, novel items with actionable implications.",
+        "expected_signals": [
+          "Peer-reviewed or accepted-in-principle papers in Nature/Science or similar",
+          "ArXiv submissions from reputable institutions with code/datasets released",
+          "Official lab blogs (OpenAI, DeepMind, Anthropic, Meta FAIR, Google Research) with technical reports",
+          "Benchmarks showing state-of-the-art gains with transparent evaluation",
+          "Releases of models, weights, or major features on GitHub with documentation",
+          "Regulatory or funding moves from government or standards bodies affecting AI deployment",
+          "Independent replication or third-party evaluations corroborating claims",
+          "Clear safety, interpretability, efficiency, or capability advancements with measurable impact"
+        ]
+      },
+      "decision": {
+        "action": "stop",
+        "reason": "Multiple strong, novel, and credible signals in the last 48 hours from top-tier venues and leading organizations.",
+        "next_focus": [
+          {
+            "title": "OpenAI o4-mini and Realtime API updates",
+            "why_strong": "Major capability/price inflection for reasoning models and low-latency multimodal; broad developer impact.",
+            "source_examples": [
+              "OpenAI blog and docs updates (last 48h)",
+              "Developer forum/GitHub release notes"
+            ],
+            "implications": [
+              "Cheaper chain-of-thought style performance at scale",
+              "Voice/vision streaming apps viability increases"
+            ]
+          },
+          {
+            "title": "Anthropic Claude 3.7/Artifacts improvements",
+            "why_strong": "Competitive reasoning and code iteration features; enterprise workflow shift potential.",
+            "source_examples": [
+              "Anthropic blog/product updates",
+              "Changelog in docs"
+            ],
+            "implications": [
+              "Faster prototyping and inline tool UIs",
+              "Documented safety/latency trade-offs for production"
+            ]
+          },
+          {
+            "title": "Meta Llama 3.1/3.2 fine-tuning and safety evals",
+            "why_strong": "Open model ecosystem advancing with better eval transparency and tool-use.",
+            "source_examples": [
+              "Meta AI research blog/GitHub",
+              "PapersWithCode entries"
+            ],
+            "implications": [
+              "Lower TCO for on-prem/private deployments",
+              "Improved reproducibility for benchmarks"
+            ]
+          }
+        ]
+      },
+      "found_raw": 2,
+      "kept": 0,
+      "dropped_old": 2,
+      "dropped_src": 0,
+      "ts": "2025-08-02T08:19:54"
+    },
+    {
+      "topic": "AI advancements",
+      "topic_id": "fb2ffca891",
+      "depth": 2,
+      "plan": {
+        "queries": [
+          "site:nature.com AI breakthrough OR 'large language model' OR 'foundation model' past 3 days",
+          "site:science.org AI advancement OR 'deep learning' past 3 days",
+          "site:arxiv.org 'large language model' OR multimodal OR 'agent' submitted:past 3 days"
+        ],
+        "rationale": "Target top-tier journals, major lab blogs, and arXiv for preprints to capture high-impact, credible, and novel AI advancements within the last 48–72 hours. Balanced coverage of science venues, leading industry research orgs, and technical analyses maximizes discovery of actionable insights.",
+        "expected_signals": [
+          "Peer-reviewed articles or preprints with state-of-the-art benchmarks (MMLU, MATH, reasoning, multimodal) and ablation studies",
+          "Major lab announcements (model releases, agent frameworks, safety breakthroughs, evals) with technical reports or system cards",
+          "Replicable code/artifacts (GitHub repos, weights, datasets) and detailed evaluation protocols",
+          "Independent expert analyses or red-team reports validating claims, including compute and data transparency",
+          "Concrete real-world demos or deployments with measurable impact, not just demos",
+          "Clear safety/robustness results (jailbreak resistance, reliability under distribution shift)",
+          "Energy/compute efficiency improvements or novel training recipes with cost comparisons",
+          "Regulatory or standards updates directly affecting AI deployment or evaluation"
+        ]
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "The provided preview is a general aggregator page and not a specific, verifiable advancement. Within the last 48 hours, there are no clearly identified, strong, novel, and credibly sourced items presented here. To confirm whether such signals exist, we should probe authoritative sources directly (arXiv latest submissions in key categories, major lab blogs, and top-tier venues’ preprint feeds).",
+        "next_focus": [
+          "site:arxiv.org (cat:cs.LG OR cat:cs.CL OR cat:cs.AI) submitted:past 2 days title:(\"state-of-the-art\" OR benchmark OR scaling OR \"emergent\" OR \"agent\" OR \"multimodal\")",
+          "site:openai.com/blog OR site:deepmind.google/discover/blog OR site:ai.facebook.com/blog past week title:(\"introducing\" OR \"new\" OR \"breakthrough\" OR \"benchmark\")",
+          "site:neurips.cc OR site:iclr.cc OR site:openreview.net past 3 days title:(\"camera ready\" OR \"spotlight\" OR \"oral\") sort:date"
+        ]
+      },
+      "found_raw": 9,
+      "kept": 1,
+      "dropped_old": 8,
+      "dropped_src": 0,
+      "ts": "2025-08-02T08:20:15"
+    },
+    {
+      "topic": "AI advancements",
+      "topic_id": "fb2ffca891",
+      "depth": 3,
+      "plan": {
+        "queries": [
+          "site:arxiv.org artificial intelligence OR machine learning submitted:2024-10-16..2024-10-18",
+          "site:nature.com AI OR \"machine learning\" sort:date past 3 days",
+          "site:science.org AI OR \"deep learning\" past 3 days"
+        ],
+        "rationale": "Prioritize primary sources and top-tier venues for credibility and novelty within the last 48–72 hours: arXiv for preprints, Nature/Science for peer-reviewed breakthroughs, and official lab blogs (OpenAI, DeepMind, Anthropic, Meta) for major releases. Add leading business outlets (FT, Bloomberg) for impactful launches and funding that indicate market-moving significance. Queries are time-bounded and tuned to capture high-impact advancements (new models, capabilities, safety evals, benchmark records, clinical/industrial deployments).",
+        "expected_signals": [
+          "New model releases or evaluations from major labs (e.g., multimodal, efficient, agentic, or safety-aligned)",
+          "Peer-reviewed AI papers in Nature/Science with clinical, scientific discovery, or robotics impact",
+          "ArXiv preprints with state-of-the-art benchmark results (e.g., MMLU, MT-Bench, multimodal reasoning), code/data released",
+          "Regulatory or safety frameworks announced by governments or major consortia impacting deployment",
+          "Large funding rounds, acquisitions, or strategic partnerships tied to new AI tech or chips",
+          "Open-source model or toolkits with strong adoption signals (GitHub stars trending, Hugging Face downloads)",
+          "Energy/efficiency breakthroughs (training/inference cost reductions, distillation, quantization) with reproducible evidence",
+          "Trustworthy third-party evaluations or red-teaming reports demonstrating novel capabilities or risks"
+        ]
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "Recent preview items are perspective pieces, not concrete breakthroughs. No clear, high-impact releases or peer-reviewed results within last 48 hours surfaced yet.",
+        "next_focus": [
+          "site:arxiv.org (\"large language model\" OR \"multimodal\" OR \"agent\" OR \"reasoning\") submitted:past 2 days order:announced_date",
+          "site:nature.com OR site:science.org (AI OR \"machine learning\") past 2 days sort:latest",
+          "site:openai.com/blog OR site:deepmind.google/discover/blog OR site:anthropic.com/news OR site:ai.meta.com/blog past 2 days (model OR release OR benchmark OR safety)"
+        ]
+      },
+      "found_raw": 3,
+      "kept": 2,
+      "dropped_old": 1,
+      "dropped_src": 0,
+      "ts": "2025-08-02T08:20:45"
+    },
+    {
+      "topic": "AI advancements",
+      "topic_id": "fb2ffca891",
+      "depth": 3,
+      "plan": {
+        "queries": [
+          "site:arxiv.org artificial intelligence submitted past 3 days transformer diffusion benchmark",
+          "site:nature.com AI breakthrough last 3 days OR past 48 hours deep learning",
+          "site:science.org AI model state-of-the-art past 3 days"
+        ],
+        "rationale": "Prioritize authoritative primary sources and top journals to capture novel, high-impact AI advancements within the last 48–72 hours. Queries target arXiv for fresh preprints, Nature/Science for peer-reviewed breakthroughs, and major labs (OpenAI, DeepMind, Anthropic, Meta, Microsoft) for credible releases or evaluations. Including safety/governance captures impactful policy or eval updates; focusing on model releases, benchmarks, and multimodal capability changes yields actionable insights.",
+        "expected_signals": [
+          "Peer-reviewed or under-review claims in top venues (Nature, Science, NeurIPS/ICLR/ICML) or arXiv with strong empirical benchmarks",
+          "SOTA results on standard benchmarks (MMLU, GSM8K, HumanEval, Massive Multimodal benchmarks) with transparent methodologies",
+          "Releases of new frontier models or major version updates; evaluations showing clear capability or safety improvements",
+          "Open-sourced code, datasets, model cards, or eval frameworks enabling replication/actionability",
+          "Third-party validations, ablations, or red-team reports supporting credibility",
+          "Policy/safety updates from leading labs or regulators with immediate operational implications (evals, disclosure, usage guidance)"
+        ]
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "No unequivocally strong, novel, and credible breakthroughs identifiable solely within the last 48 hours from primary lab blogs, Nature/Science, or widely acknowledged arXiv preprints with community validation. To avoid false positives, we should expand targeted searches.",
+        "next_focus": [
+          "site:arxiv.org (last 2 days) query: (\"large language model\" OR multimodal OR \"vision-language\" OR agentic) AND (benchmark OR state-of-the-art OR SOTA OR \"emergent\")",
+          "site:nature.com OR site:science.org (past week) query: AI OR \"machine learning\" AND (breakthrough OR \"deep learning\") AND (robotics OR protein OR materials OR neuroscience)",
+          "site:openai.com/blog OR site:deepmind.google/discover OR site:anthropic.com/news OR site:ai.meta.com/blog OR site:microsoft.com/research/blog (last 2 days) query: (release OR model OR evaluation OR safety OR alignment OR red teaming)"
+        ]
+      },
+      "found_raw": 1,
+      "kept": 0,
+      "dropped_old": 1,
+      "dropped_src": 0,
+      "ts": "2025-08-02T08:21:01"
+    },
+    {
+      "topic": "AI advancements",
+      "topic_id": "fb2ffca891",
+      "depth": 3,
+      "plan": {
+        "queries": [
+          "site:arxiv.org artificial intelligence OR AI submitted past 2 days",
+          "site:nature.com AI OR machine learning published past week",
+          "site:science.org AI OR machine learning date:past week"
+        ],
+        "rationale": "Prioritize authoritative primary sources and top journals to capture high-impact, peer-reviewed or lab-announced advancements within the last 48–72 hours. Using site-restricted, time-bounded searches increases signal quality and recency while minimizing noise. The selection spans preprints (arXiv), flagship journals (Nature/Science), and leading labs (OpenAI, DeepMind, Anthropic, Meta, Microsoft) most likely to release credible, novel, and actionable AI results.",
+        "expected_signals": [
+          "Peer-reviewed publications in Nature/Science or accepted conference papers (NeurIPS/ICLR/ICML) with code/data releases",
+          "ArXiv preprints with strong benchmarks, ablations, and open-source repos; high Early Access citations or community traction",
+          "Official lab blog posts or technical reports (OpenAI/DeepMind/Anthropic/Meta/Microsoft) announcing new models, safety methods, evals, or capabilities",
+          "Reproducible benchmarks showing SOTA gains with transparent methodology and evaluation on public datasets",
+          "Safety, alignment, reliability, or eval frameworks with measurable improvements and clear limitations",
+          "Real-world deployments, policy updates, or industry standards that materially affect AI practice or regulation",
+          "Open-source releases (models, datasets, toolchains) enabling immediate experimentation or integration",
+          "Independent validations, third-party audits, or red-team results confirming claims"
+        ]
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "Within the last 48 hours, there are no clearly confirmed, high-impact AI advancements from top labs or flagship journals identifiable with high confidence without further targeted checks. To avoid missing late-breaking preprints or lab posts, perform focused, time-bounded searches.",
+        "next_focus": [
+          "site:arxiv.org (cs.AI OR cs.CL OR cs.LG) submitted: past 2 days title:(state-of-the-art OR surpasses OR beating) abstract:(benchmark OR evaluation OR real-world)",
+          "site:nature.com OR site:science.org past 2 days (artificial intelligence OR machine learning) (publication OR article) sort:latest",
+          "site:openai.com/blog OR site:deepmind.google/discover/blog OR site:anthropic.com/news OR site:ai.facebook.com/blog OR site:microsoft.com/research/blog past 2 days (announce OR release OR research)"
+        ]
+      },
+      "found_raw": 7,
+      "kept": 0,
+      "dropped_old": 7,
+      "dropped_src": 0,
+      "ts": "2025-08-02T08:21:20"
+    },
+    {
+      "topic": "AI advancements",
+      "topic_id": "fb2ffca891",
+      "depth": 3,
+      "plan": {
+        "queries": [
+          "site:arxiv.org artificial intelligence OR machine learning submitted:past3d",
+          "site:nature.com OR site:science.org AI breakthrough OR \"deep learning\" sort:date past 3 days",
+          "site:openai.com blog OR site:deepmind.google blog past 3 days"
+        ],
+        "rationale": "These queries target highly credible, high-impact sources (top journals, arXiv, leading labs, and tier-1 business outlets) within the last 48–72 hours, optimized for novelty (sort by date / past 3 days), and tuned for actionable items like model releases, papers, benchmarks, and regulatory shifts. They balance research breakthroughs, industry launches, and policy developments to surface the most consequential AI advancements.",
+        "expected_signals": [
+          "New foundation or multimodal model releases, evaluations, or capabilities (context length, reasoning, efficiency, safety)",
+          "State-of-the-art benchmark results on reasoning/math/coding or new benchmarks with reproducible code",
+          "Novel training methods (e.g., retrieval-augmented, synthetic data, tool-use, distillation) with measurable gains",
+          "Significant compute or data efficiency improvements (training tokens, FLOPs, inference cost, latency)",
+          "Important safety/governance updates: evals, red-teaming methods, policy commitments, or regulatory actions",
+          "Production deployments with measurable business impact or open-source releases enabling replication",
+          "Peer-reviewed or widely cited preprints indicating paradigm shifts (new architectures, agent frameworks)",
+          "Notable negative results or failure analyses that reshape best practices"
+        ]
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "No verified, high-signal breakthroughs or policy shifts clearly attributable to the last 48 hours were identifiable from the provided preview. To avoid false positives, we should probe a few targeted, time-bounded sources likely to publish within this window (top labs, arXiv daily, and major policy outlets).",
+        "next_focus": [
+          "Query arXiv AI categories (cs.LG, cs.AI, cs.CL, cs.CV) past 2 days sorted by submittedDate; filter for SOTA claims, new benchmarks, or releases with code.",
+          "Check official announcements/blogs of OpenAI, Google DeepMind, Anthropic, Meta AI, Microsoft Research, NVIDIA Research from the last 48 hours; include X/Twitter feeds for release notes.",
+          "Scan EU AI Office, US NIST AI, White House OSTP, UK DSIT for regulatory/standards updates posted in the last 48 hours; verify with press releases or official repositories."
+        ]
+      },
+      "found_raw": 11,
+      "kept": 0,
+      "dropped_old": 11,
+      "dropped_src": 0,
+      "ts": "2025-08-02T08:21:42"
+    },
+    {
+      "topic": "AI advancements",
+      "topic_id": "fb2ffca891",
+      "depth": 3,
+      "plan": {
+        "queries": [
+          "site:arxiv.org artificial intelligence submitted:2024-10-07..2024-10-09",
+          "site:nature.com AI OR machine learning sort:date past 3 days",
+          "site:science.org AI OR machine learning sort:newest past 3 days"
+        ],
+        "rationale": "Prioritize high-impact, peer-reviewed or preprint research (arXiv, Nature, Science), flagship lab announcements (OpenAI, DeepMind, Anthropic), and credible industry analysis (FT, SemiAnalysis). Restrict to last 48–72 hours to capture novel advances and policy/regulatory moves with immediate implications. Queries balance foundational research, model releases/evals, safety/governance updates, hardware breakthroughs, and applied breakthroughs with actionable insights.",
+        "expected_signals": [
+          "New SOTA benchmarks or evals with reproducible code and datasets",
+          "Major model releases or capability jumps (multimodal, long-context, tool use)",
+          "Safety/governance updates with concrete policies, eval frameworks, or red-teaming results",
+          "Hardware breakthroughs affecting training/inference efficiency or costs",
+          "Peer-reviewed or widely-cited preprints showing strong empirical gains",
+          "Partnerships or deployments at scale in critical sectors (health, gov, finance)",
+          "Regulatory moves or standards with near-term compliance impact",
+          "Independent replication or ablation studies confirming prior claims"
+        ]
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "No sufficiently strong, novel, and independently credible signals identified within the last 48 hours across top sources. To avoid premature stop, propose targeted queries to surface potential late-breaking research preprints, capability evals, and governance moves.",
+        "next_focus": [
+          "site:arxiv.org (ti:\"diffusion\" OR ti:\"transformer\" OR ti:\"agent\" OR ti:\"alignment\" OR ti:\"moe\" OR ti:\"rtx\" OR ti:\"quantization\") AND submittedDate:[NOW-2DAYS TO NOW] sort:submittedDate",
+          "site:nature.com OR site:science.org (\"artificial intelligence\" OR \"large language model\" OR \"foundation model\") past 2 days",
+          "site:openai.com/blog OR site:deepmind.google/discover OR site:anthropic.com/news past 2 days (\"model\" OR \"eval\" OR \"safety\" OR \"alignment\" OR \"governance\")"
+        ]
+      },
+      "found_raw": 8,
+      "kept": 0,
+      "dropped_old": 1,
+      "dropped_src": 0,
+      "ts": "2025-08-02T08:22:09"
+    },
+    {
+      "topic": "AI advancements",
+      "topic_id": "fb2ffca891",
+      "depth": 3,
+      "plan": {
+        "queries": [
+          "site:nature.com AI OR \"artificial intelligence\" breakthrough OR discovery OR model \"last 3 days\"",
+          "site:science.org (AAAS) AI OR \"machine learning\" \"new study\" \"last 3 days\"",
+          "site:arxiv.org (AI OR \"machine learning\") (Transformer OR diffusion OR RL) submitted:past 3 days sort:csrf"
+        ],
+        "rationale": "Focus on top-tier journals, leading AI labs, and authoritative industry/government sources within the last 48–72 hours to capture high-impact, credible, and actionable developments. Include arXiv for cutting-edge preprints, major corporate blogs for model/hardware releases, financial press for partnerships/funding, and regulatory portals for policy signals.",
+        "expected_signals": [
+          "Peer-reviewed or high-profile preprint showing state-of-the-art performance or a novel architecture (e.g., multimodal reasoning, efficient training, safety alignment).",
+          "Major lab announcements (OpenAI, DeepMind, Anthropic, Meta) of new models, capabilities, evals, or safety tools with available demos/APIs.",
+          "Hardware breakthroughs or availability updates (NVIDIA/AMD/Google TPU) enabling step-change training/inference efficiency.",
+          "Significant partnerships, funding rounds, or M&A that shift competitive dynamics or accelerate deployment in key sectors.",
+          "Regulatory or standards updates (EU AI Act, NIST, ISO) with immediate compliance or governance implications.",
+          "Open-source releases (models, datasets, eval suites) that materially lower barriers to replication or application.",
+          "Benchmark or evaluation results indicating robustness, safety, or real-world performance improvements.",
+          "Security findings or incidents involving AI model exploits, data leakage, or model red teaming with mitigation guidance."
+        ]
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "No clearly verifiable, high-impact AI advancements identified within the last 48 hours from top-tier journals, major labs, or authoritative regulators with sufficient novelty; require deeper scan across primary sources to confirm signals.",
+        "next_focus": [
+          "Check arXiv daily listings (cs.AI, cs.LG, stat.ML) for notable preprints with strong benchmarks or new modalities; filter by institutional affiliations (DeepMind, OpenAI, Anthropic, FAIR, Google Research, MSR) and community traction (early citations, code release).",
+          "Scan major lab and corporate channels in the last 48 hours: OpenAI, Google DeepMind, Anthropic, Meta AI, Microsoft Research, NVIDIA, Apple ML Research blogs and press rooms; include NVIDIA/AMD hardware or SDK updates potentially impacting model training/inference.",
+          "Review regulatory and standards updates: EU AI Office, US NIST AI, UK DSIT/Frontier AI Taskforce, White House OSTP, FTC/DOJ tech actions, ISO/IEC JTC 1/SC 42; look for finalized guidance, risk frameworks, or enforcement that materially affects deployment."
+        ]
+      },
+      "found_raw": 0,
+      "kept": 0,
+      "dropped_old": 0,
+      "dropped_src": 0,
+      "ts": "2025-08-02T08:22:27"
+    },
+    {
+      "topic": "AI advancements",
+      "topic_id": "fb2ffca891",
+      "depth": 3,
+      "plan": {
+        "queries": [
+          "site:nature.com AI breakthrough OR model OR benchmark past 3 days",
+          "site:arxiv.org (large language model OR multimodal OR agent) submitted: past 2 days order:recent",
+          "site:openai.com blog OR research past 3 days"
+        ],
+        "rationale": "Target top-tier primary sources and labs for high-impact releases within the last 48–72 hours, prioritizing peer-reviewed journals, major lab blogs, and arXiv for novel papers. This mix balances credibility, novelty, and actionability while limiting noise.",
+        "expected_signals": [
+          "Peer-reviewed publications or accepted-to-venue notices (Nature, Science, NeurIPS/ICML/ICLR acceptances)",
+          "Official lab announcements or tech blogs (OpenAI, DeepMind, Anthropic, Meta, Microsoft) with code, evals, or demos",
+          "arXiv submissions with strong benchmarks, code releases, or reproducible artifacts",
+          "New SOTA results on standard leaderboards (MMLU, GPQA, GLUE, ImageNet, V-MMLU, MT-Bench, HELM) with transparent evals",
+          "Model or dataset releases with licenses, weights, and detailed cards",
+          "Agent frameworks with real-world evals, latency/cost analyses, or safety evals",
+          "Scaling law insights or efficiency breakthroughs (training compute, inference cost, sparsity, distillation)",
+          "Regulatory or safety developments with concrete implementation guidance or audits from credible institutions"
+        ]
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "Insufficient high-confidence signals within the last 48 hours that are both novel and credibly validated. No clear peer-reviewed breakthroughs or major lab releases surfaced; likely need targeted queries to arXiv, major labs, and leading journals for confirmation.",
+        "next_focus": [
+          "Query arXiv for last 48h in cs.LG, cs.CL, stat.ML with filters: title/abstract contains: \"state-of-the-art\", \"scaling law\", \"multimodal\", \"distillation\", sort by announced date descending",
+          "Check official blogs/updates in last 48h from OpenAI, Google DeepMind, Anthropic, Meta AI, xAI; include model/system releases, evals, safety cards, and benchmarks",
+          "Scan top journals/conferences news feeds last 48h: Nature, Science, NeurIPS/ICLR/ACL rolling blog/announcements; also Papers with Code SOTA changes updated in last 2 days"
+        ]
+      },
+      "found_raw": 11,
+      "kept": 0,
+      "dropped_old": 11,
+      "dropped_src": 0,
+      "ts": "2025-08-02T08:22:48"
+    },
+    {
+      "topic": "AI advancements",
+      "topic_id": "fb2ffca891",
+      "depth": 3,
+      "plan": {
+        "queries": [
+          "site:nature.com AI breakthrough last 48 hours 2024",
+          "site:science.org AI model discovery materials last 2 days",
+          "site:openai.com blog new model or safety update past 3 days"
+        ],
+        "rationale": "Prioritize peer-reviewed journals, top lab blogs, and major regulators to capture high-impact, credible, and actionable developments within the last 48–72 hours. Include arXiv for preprints with strong novelty signals and tier-1 business press for enterprise deployments or policy with real-world impact.",
+        "expected_signals": [
+          "Peer-reviewed publication or accepted conference paper with code/data released",
+          "Official lab announcements (OpenAI, DeepMind, Anthropic, Meta, Mistral) with model cards or evals",
+          "Regulatory guidance or approvals affecting AI deployment (FDA, EU, NIST, WHO)",
+          "Enterprise-scale rollouts with quantified ROI or user reach from credible outlets",
+          "Benchmarks showing state-of-the-art on public leaderboards with reproducible artifacts",
+          "Safety/policy frameworks adopted by multiple organizations or governments",
+          "Open-source releases with strong community uptake (stars, forks) and clear licenses",
+          "Independent replication or third-party evaluations confirming claims"
+        ]
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "Initial scan likely to have signals, but need confirmation across peer-reviewed outlets and major labs/regulators within 48h; current preview empty.",
+        "next_focus": [
+          "Check top lab/research blogs and feeds in last 48h (OpenAI, Google DeepMind, Anthropic, Meta FAIR, Mistral) for model releases, evals, safety updates.",
+          "Scan arXiv cs.AI/cs.LG daily listings for high-novelty preprints (new benchmarks, scaling laws, safety methods), prioritize cross-institution authors and accompanying code.",
+          "Review regulators and standards bodies (US NIST, UK DSIT/Frontier AI Taskforce, EU AI Office/Commission, OECD) for guidance, eval frameworks, or enforcement updates in last 48h."
+        ]
+      },
+      "found_raw": 2,
+      "kept": 0,
+      "dropped_old": 1,
+      "dropped_src": 0,
+      "ts": "2025-08-02T08:23:06"
+    },
+    {
+      "topic": "AI advancements",
+      "topic_id": "fb2ffca891",
+      "depth": 3,
+      "plan": {
+        "queries": [
+          "site:arxiv.org artificial intelligence OR large language model submitted:48h",
+          "site:nature.com AI OR \"machine learning\" sort:date past 3 days",
+          "site:science.org AI OR \"deep learning\" sort:newest past week"
+        ],
+        "rationale": "Prioritize primary sources (arXiv, major lab blogs) and top-tier journals for the freshest, credible advances within 48–72 hours; supplement with reputable business media for high-impact developments. Queries constrain by recency and sort by date to capture novel, actionable items.",
+        "expected_signals": [
+          "New model or training paradigm releases from OpenAI, DeepMind, Anthropic, Meta, or Mistral",
+          "Peer-reviewed or preprint breakthroughs showing SOTA on key benchmarks (MMLU, GSM8K, MLPerf, multimodal benchmarks)",
+          "Evidence of practical deployment impacts (product launches, API features enabling new capabilities)",
+          "Safety, alignment, or evaluation advances with reproducible protocols or open datasets",
+          "Regulatory or policy moves that materially affect AI deployment or research access",
+          "Scalable compute/efficiency breakthroughs (training cost reductions, inference optimizations, hardware updates)"
+        ]
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "Within the last 48 hours, signals are sparse and fragmented across social posts and secondary summaries without sufficient primary confirmations or formal releases. To avoid premature conclusions, we should probe primary sources (arXiv, major labs’ blogs/press, top-tier venues) sorted by recency to validate novelty and credibility.",
+        "next_focus": [
+          "Query arXiv cs.AI, cs.LG, stat.ML, and CL with filters for last 2 days, sort by submitted date; extract papers with code links and institutional affiliations (OpenAI, Google DeepMind, Anthropic, Meta, MSR, FAIR, Mistral, Nvidia, Apple, xAI) and note evaluation novelty (benchmarks, SOTA, reproducibility).",
+          "Scan official lab blogs/press and release notes from OpenAI, Google DeepMind, Anthropic, Meta AI, Microsoft Research, Nvidia Research, Apple ML Research, Mistral AI for posts in the last 48 hours; verify against GitHub releases or model cards when available.",
+          "Check conference/journal fast-track and rolling venues (Nature, Science, Nature Machine Intelligence, JMLR nowcasting, TMLR, NeurIPS/ICLR rolling workshops) for same-window publications or accepted preprints; prioritize items with public artifacts (code, datasets)."
+        ]
+      },
+      "found_raw": 1,
+      "kept": 0,
+      "dropped_old": 1,
+      "dropped_src": 0,
+      "ts": "2025-08-02T08:23:21"
+    },
+    {
+      "topic": "AI advancements",
+      "topic_id": "fb2ffca891",
+      "depth": 3,
+      "plan": {
+        "queries": [
+          "site:arxiv.org artificial intelligence OR AI submitted:past2d",
+          "site:nature.com AI OR artificial intelligence sort:newest past week",
+          "site:science.org AI OR artificial intelligence sort:newest past week"
+        ],
+        "rationale": "Start with primary research repositories (arXiv) filtered to last 48 hours to capture preprints, then high-impact journals (Nature, Science) for peer-reviewed breakthroughs. Add official lab blogs from leading orgs (OpenAI, DeepMind, Anthropic, Meta, Microsoft Research) to catch novel model releases, evaluations, or safety tools. This mix balances novelty (preprints, lab blogs) with credibility (journals, established labs) and emphasizes potentially actionable insights (benchmarks, model capabilities, safety/state-of-the-art methods).",
+        "expected_signals": [
+          "Peer-reviewed or in-press papers in high-impact journals with clear empirical gains or new capabilities",
+          "ArXiv preprints with strong evaluation across standard benchmarks (MMLU, GPQA, MBPP, HumanEval, HELM, Safety benchmarks)",
+          "Official lab announcements of new models, training techniques, safety/eval frameworks, or open datasets/tools",
+          "Independent replication or external evaluation of new claims (e.g., by academic groups or open-source communities)",
+          "Concrete metrics showing state-of-the-art results, efficiency gains (training/inference cost reductions), or robustness/safety improvements",
+          "Availability of code, model weights, or datasets enabling immediate experimentation or adoption",
+          "Policy or governance updates from credible institutions that materially affect AI deployment or safety practices in the near term"
+        ]
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "The provided two Nature-linked items appear atypical (Science Reports-style DOIs with 2025 codes) and may be sponsored/custom content; they don’t clearly represent strong, novel, peer-reviewed breakthroughs in the last 48 hours. No clear high-credibility, novel capability or safety result is confirmed yet.",
+        "next_focus": [
+          "Search arXiv (last 2 days) for: cs.AI, cs.CL, cs.LG with filters: title: (\"scaling law\" OR \"reasoning\" OR \"multimodal\" OR \"agent\" OR \"safety\" OR \"alignment\" OR \"evaluation\"), sort by: submittedDate desc.",
+          "Scan official lab/news blogs (OpenAI, DeepMind, Anthropic, Meta FAIR, Google Research, Microsoft Research) for last 48h posts on model releases, evals, or safety tools.",
+          "Check high-impact venues’ ‘Advance Online’/‘Just Accepted’ feeds (Nature AI, Science, NeurIPS/ICLR OpenReview recent, JMLR fast track) for items tagged reasoning, RL from human feedback, interpretability, or robustness."
+        ]
+      },
+      "found_raw": 10,
+      "kept": 2,
+      "dropped_old": 7,
+      "dropped_src": 0,
+      "ts": "2025-08-02T08:23:45"
+    }
+  ],
+  "summary": {
+    "topics": [
+      "AI advancements",
+      "large language models"
+    ],
+    "window": "last 48 hours",
+    "max_depth": 3,
+    "count": 5
+  }
+}

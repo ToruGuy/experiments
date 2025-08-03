@@ -1,0 +1,198 @@
+{
+  "run_id": "2025-08-02",
+  "items": [
+    {
+      "item_id": "2025-08-02-9e8ed6b706",
+      "title": "Tech giants ramp up spending as AI starts to deliver",
+      "url": "https://www.axios.com/2025/08/01/ai-earnings-google-microsoft-meta-stocks",
+      "source": "axios",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "Tech companies are generating real revenue from AI investments and reinvesting heavily in data centers, signaling belief in the AI boom's early stages.",
+      "topic": "AI advancements",
+      "depth": 1,
+      "tags": []
+    },
+    {
+      "item_id": "2025-08-02-6bb6f83e26",
+      "title": "Artificial Intelligence In Patent And Market Intelligence: A New Paradigm For Technology Scouting",
+      "url": "https://arxiv.org/abs/2507.20322",
+      "source": "arxiv",
+      "source_quality": "low",
+      "published_at": "2025-07-27",
+      "snippet": "This paper presents the development of an AI-powered software platform that leverages advanced large language models (LLMs) to transform technology scouting and solution discovery in industrial R&D. The proposed platform utilizes cutting-edge LLM capabilities including semantic understanding, contextual reasoning, and cross-domain knowledge extraction to interpret problem statements and retrieve high-quality, sustainable solutions.",
+      "topic": "technical innovations",
+      "depth": 1,
+      "tags": [
+        "hype"
+      ]
+    },
+    {
+      "item_id": "2025-08-02-bc4f619e9a",
+      "title": "AUTOMATIC1111/stable-diffusion-webui",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "source": "repositorystats",
+      "source_quality": "low",
+      "published_at": "2025-07-26",
+      "snippet": "Stable Diffusion web UI",
+      "topic": "AI advancements",
+      "depth": 1,
+      "tags": []
+    },
+    {
+      "item_id": "2025-08-02-0782f8beeb",
+      "title": "danielmiessler/fabric",
+      "url": "https://github.com/danielmiessler/fabric",
+      "source": "repositorystats",
+      "source_quality": "low",
+      "published_at": "2025-07-26",
+      "snippet": "Fabric is an open-source framework for augmenting humans using AI. It provides a modular framework for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.",
+      "topic": "AI advancements",
+      "depth": 1,
+      "tags": []
+    },
+    {
+      "item_id": "2025-08-02-7984a31e10",
+      "title": "CodePhiliaX/Chat2DB",
+      "url": "https://github.com/CodePhiliaX/Chat2DB",
+      "source": "repositorystats",
+      "source_quality": "low",
+      "published_at": "2025-07-26",
+      "snippet": "AI-driven database tool and SQL client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.",
+      "topic": "AI advancements",
+      "depth": 1,
+      "tags": []
+    },
+    {
+      "item_id": "2025-08-02-ec9a31b734",
+      "title": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "source": "repositorystats",
+      "source_quality": "low",
+      "published_at": "2025-07-26",
+      "snippet": "Generate short videos with one click using AI LLM.",
+      "topic": "AI advancements",
+      "depth": 1,
+      "tags": []
+    },
+    {
+      "item_id": "2025-08-02-deb1176f76",
+      "title": "microsoft/data-formulator",
+      "url": "https://github.com/microsoft/data-formulator",
+      "source": "github trending",
+      "source_quality": "low",
+      "published_at": "2025-07-31",
+      "snippet": "Create rich visualizations with AI.",
+      "topic": "AI advancements",
+      "depth": 1,
+      "tags": []
+    },
+    {
+      "item_id": "2025-08-02-403ec9661f",
+      "title": "n4ze3m/page-assist",
+      "url": "https://github.com/n4ze3m/page-assist",
+      "source": "github trending",
+      "source_quality": "low",
+      "published_at": "2025-07-31",
+      "snippet": "Use your locally running AI models to assist you in your web browsing.",
+      "topic": "AI advancements",
+      "depth": 1,
+      "tags": []
+    },
+    {
+      "item_id": "2025-08-02-b01295803d",
+      "title": "unslothai/unsloth",
+      "url": "https://github.com/unslothai/unsloth",
+      "source": "github trending",
+      "source_quality": "low",
+      "published_at": "2025-07-31",
+      "snippet": "Finetune Llama 3.3, DeepSeek-R1 & Reasoning LLMs 2x faster with 70% less memory!",
+      "topic": "AI advancements",
+      "depth": 1,
+      "tags": []
+    },
+    {
+      "item_id": "2025-08-02-b409dc7b84",
+      "title": "Shubhamsaboo/awesome-llm-apps",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "source": "github trending",
+      "source_quality": "low",
+      "published_at": "2025-07-31",
+      "snippet": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
+      "topic": "AI advancements",
+      "depth": 1,
+      "tags": []
+    }
+  ],
+  "log": [
+    {
+      "topic": "AI advancements",
+      "topic_id": "fb2ffca891",
+      "depth": 1,
+      "plan": {
+        "queries": [
+          "AI advancements latest news past 48 hours",
+          "AI advancements announcement OR launch OR unveils past 3 days",
+          "AI advancements breakthrough OR benchmark OR SOTA past week",
+          "AI advancements report OR analysis OR deep dive past week",
+          "AI advancements GitHub release OR repo trending past week"
+        ],
+        "rationale": "broad-first",
+        "expected_signals": []
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "No clearly strong, novel, and credible signals specific to AI advancements within the last 48 hours are evident from the preview alone; items are generic repo stats or broad articles without verifiable recency details.",
+        "next_focus": [
+          "Verify actual publication timestamps and key claims in the Axios piece to confirm recency and concrete AI advancement metrics (e.g., model performance, deployment footprints).",
+          "Check commit histories and release notes for the listed GitHub repos in the last 48 hours for substantive AI-related features or breakthroughs (not just stars or docs).",
+          "Scan major AI research/org feeds for 48h: arXiv cs.AI/cs.LG daily listings, OpenAI/Google/Meta/Anthropic/DeepMind blogs, and top labs’ Twitter/X for newly released models, benchmarks, or papers."
+        ]
+      },
+      "found_raw": 23,
+      "kept": 9,
+      "dropped_old": 11,
+      "dropped_src": 0,
+      "ts": "2025-08-02T09:09:17"
+    },
+    {
+      "topic": "technical innovations",
+      "topic_id": "c0b1fd010d",
+      "depth": 1,
+      "plan": {
+        "queries": [
+          "technical innovations latest news past 48 hours",
+          "technical innovations announcement OR launch OR unveils past 3 days",
+          "technical innovations breakthrough OR benchmark OR SOTA past week",
+          "technical innovations report OR analysis OR deep dive past week",
+          "technical innovations GitHub release OR repo trending past week"
+        ],
+        "rationale": "broad-first",
+        "expected_signals": []
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "The preview items are a mix of general resources and repos without clear, time-bounded novelty; none provide strong, verified breakthroughs in the last 48 hours. Need targeted checks for credible, dated announcements or preprints.",
+        "next_focus": [
+          "site:arxiv.org (cat: cs, eess) last 2 days \"technical\" OR \"innovation\" filter for cross-disciplinary methods (e.g., new chips, training methods, robotics)",
+          "site:news.ycombinator.com OR site:techcrunch.com past 2 days \"announces\" OR \"launches\" AND \"platform\" OR \"model\" OR \"chip\"",
+          "GitHub trending and releases past 48h: language:Python OR Rust keywords: \"v1.0\", \"release\", \"RC\", \"breaking\"; check OpenBB, burn, hrms release notes for dated changes"
+        ]
+      },
+      "found_raw": 15,
+      "kept": 10,
+      "dropped_old": 5,
+      "dropped_src": 0,
+      "ts": "2025-08-02T09:10:23"
+    }
+  ],
+  "summary": {
+    "topics": [
+      "AI advancements",
+      "technical innovations"
+    ],
+    "window": "last 48 hours",
+    "max_depth": 3,
+    "count": 10
+  }
+}

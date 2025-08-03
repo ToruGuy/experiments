@@ -1,0 +1,156 @@
+{
+  "run_id": "2025-08-02",
+  "items": [
+    {
+      "item_id": "2025-08-02-98f13026e4",
+      "title": "Benchmarking AI scientists in omics data-driven biological research",
+      "url": "https://arxiv.org/abs/2505.08341",
+      "source": "arxiv",
+      "source_quality": "low",
+      "published_at": "2025-05-13",
+      "snippet": "The rise of large language models and multi-agent systems has sparked growing interest in AI scientists capable of autonomous biological research. However, existing benchmarks either focus on reasoning without data or on data analysis with predefined statistical answers, lacking realistic, data-driven evaluation settings. This paper introduces the Biological AI Scientist Benchmark (BaisBench), designed to assess AI scientists' ability to generate biological discoveries through data analysis and reasoning with external knowledge.",
+      "topic": "AI advancements",
+      "depth": 1
+    },
+    {
+      "item_id": "2025-08-02-671328155b",
+      "title": "Auto-Evolve: Enhancing Large Language Model's Performance via Self-Reasoning Framework",
+      "url": "https://arxiv.org/abs/2410.06328",
+      "source": "arxiv",
+      "source_quality": "low",
+      "published_at": "2024-10-08",
+      "snippet": "Recent advancements in prompt engineering strategies, such as Chain-of-Thought (CoT) and Self-Discover, have demonstrated significant potential in improving the reasoning abilities of Large Language Models (LLMs). However, these state-of-the-art prompting strategies rely on single or fixed set of static seed reasoning modules intended to simulate human approach to problem-solving. This paper introduces Auto-Evolve, a novel framework that enables LLMs to self-create dynamic reasoning modules and downstream action plan, resulting in significant improvements over current SOTA methods.",
+      "topic": "AI advancements",
+      "depth": 1
+    },
+    {
+      "item_id": "2025-08-02-9e8ed6b706",
+      "title": "Tech giants ramp up spending as AI starts to deliver",
+      "url": "https://www.axios.com/2025/08/01/ai-earnings-google-microsoft-meta-stocks",
+      "source": "axios",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "Microsoft, Google, and Meta are significantly increasing investments in data centers and computing infrastructure as AI begins to generate real revenue. Despite strong quarterly earnings, these companies are reinvesting heavily in AI infrastructure, signaling their belief that the AI boom is still in its early stages. Microsoft and Google reported better-than-expected results due to AI-related growth, while Meta's recent strong quarterly performance was highlighted as the clearest indication yet of AI's impact on revenue and profits. This surge in spending has also helped Nvidia become the first $4 trillion company by market capitalization, with Microsoft following as the second. Tech analyst Gene Munster noted that with these developments, doubts about AI's return on investment (ROI) should now be laid to rest. However, even as revenues rise, AI-driven expenditures are increasing at an even faster pace.",
+      "topic": "AI advancements",
+      "depth": 1
+    },
+    {
+      "item_id": "2025-08-02-b85c3577d6",
+      "title": "Benchmark Gensuite Recognized for AI Innovation with Vista Endeavor Fund’s Gen AI Breakthrough Award",
+      "url": "https://benchmarkgensuite.com/press-release/benchmark-gensuite-recognized-for-ai-innovation-with-vista-endeavor-funds-gen-ai-breakthrough-award/",
+      "source": "benchmark gensuite",
+      "source_quality": "low",
+      "published_at": "2025-03-20",
+      "snippet": "Benchmark Gensuite, a leading provider of enterprise-scale EHS and sustainability software solutions, has been honored with the Vista Equity Partners Endeavor Fund’s Gen AI Breakthrough Award at the 2025 Vista CEO Summit. This recognition highlights Benchmark Gensuite’s innovative use of Generative AI to drive transformation across its platform and reinforce its leadership in AI-powered EHS and operational solutions for improved worker safety.",
+      "topic": "AI advancements",
+      "depth": 1
+    },
+    {
+      "item_id": "2025-08-02-29d064d815",
+      "title": "LLMs Outperform Experts on Challenging Biology Benchmarks",
+      "url": "https://arxiv.org/abs/2505.06108",
+      "source": "arxiv",
+      "source_quality": "low",
+      "published_at": "2025-05-09",
+      "snippet": "This study systematically evaluates 27 frontier Large Language Models on eight diverse biology benchmarks spanning molecular biology, genetics, cloning, virology, and biosecurity. The findings reveal dramatic improvements in biological capabilities, with top model performance increasing more than 4-fold on the challenging text-only subset of the Virology Capabilities Test over the study period, now performing twice as well as expert virologists.",
+      "topic": "AI advancements",
+      "depth": 1
+    },
+    {
+      "item_id": "2025-08-02-94e133aca9",
+      "title": "AI Breakthroughs Redefine Language, Reasoning, and Neural Interfaces",
+      "url": "https://medium.com/@benjamin.skylark/ai-innovation-frontiers-reasoning-robotics-and-autonomous-systems-ab9b5b9bc49a",
+      "source": "medium",
+      "source_quality": "low",
+      "published_at": "2025-03-01",
+      "snippet": "Recent AI research has produced transformative architectural innovations including diffusion-based language models that generate text 10x faster than traditional approaches, superior reasoning models that establish new benchmarks, and advanced brain-computer interfaces achieving 80% character decoding accuracy. These breakthroughs span diverse domains from parallel text generation and multi-agent scientific discovery to neural signal interpretation and generative media technologies, representing fundamental shifts in AI capabilities.",
+      "topic": "AI advancements",
+      "depth": 1
+    },
+    {
+      "item_id": "2025-08-02-77a3c51aab",
+      "title": "AI Supremacy - OpenAI's new 03 model achieved a breakthrough score of 87.5% on the ARC-AGI benchmark, significantly surpassing previous models and even human-level performance.",
+      "url": "https://www.judgy.ai/newsletter/24938/ai-supremacy/openai-s-new-03-model-achieved-a-breakthrough-score-of-87-5percent-on-the-arc-agi-benchmark-significantly-surpassing-previous-models-and-even-human-level-performance",
+      "source": "judgy ai",
+      "source_quality": "low",
+      "published_at": "2024-12-27",
+      "snippet": "OpenAI's new 03 model achieved a breakthrough score of 87.5% on the ARC-AGI benchmark, significantly surpassing previous models and even human-level performance. This achievement highlights the rapid advancements in AI capabilities and sets a new standard for AI performance in complex reasoning tasks.",
+      "topic": "AI advancements",
+      "depth": 1
+    },
+    {
+      "item_id": "2025-08-02-c40e7cff98",
+      "title": "Enabling AI Scientists to Recognize Innovation: A Domain-Agnostic Algorithm for Assessing Novelty",
+      "url": "https://arxiv.org/abs/2503.01508",
+      "source": "arxiv",
+      "source_quality": "low",
+      "published_at": "2025-03-03",
+      "snippet": "In the pursuit of Artificial General Intelligence (AGI), automating the generation and evaluation of novel research ideas is a key challenge in AI-driven scientific discovery. This paper presents Relative Neighbor Density (RND), a domain-agnostic algorithm for novelty assessment in research ideas that overcomes the limitations of existing approaches by comparing an idea's local density with its adjacent neighbors' densities. The results validate RND as a generalizable solution for automated novelty assessment in scientific research.",
+      "topic": "AI advancements",
+      "depth": 1
+    },
+    {
+      "item_id": "2025-08-02-1a92c807e9",
+      "title": "The Week AI Research Went Into Overdrive",
+      "url": "https://www.linkedin.com/pulse/week-ai-research-went-overdrive-justin-h-johnson-a629e",
+      "source": "linkedin",
+      "source_quality": "low",
+      "published_at": "2025-05-29",
+      "snippet": "From revolutionary attention mechanisms to AI scientists that draft their own papers, this week delivered an unprecedented surge of breakthrough research across every domain of artificial intelligence. Here's a deep dive into the 26 papers, blogs, or articles that caught attention and why they matter.",
+      "topic": "AI advancements",
+      "depth": 1
+    },
+    {
+      "item_id": "2025-08-02-830d339d82",
+      "title": "Best AI Advancements in the Last Week: A Deep Dive into the Latest Breakthroughs",
+      "url": "https://www.webpronews.com/best-ai-advancements-in-the-last-week-a-deep-dive-into-the-latest-breakthroughs/",
+      "source": "webpronews",
+      "source_quality": "low",
+      "published_at": "2025-04-12",
+      "snippet": "The past week has witnessed significant strides in the field of Artificial Intelligence (AI), with several groundbreaking developments that are poised to reshape the technological landscape. This article provides an in-depth analysis of the most notable advancements, highlighting their implications for tech industry leaders.",
+      "topic": "AI advancements",
+      "depth": 1
+    }
+  ],
+  "log": [
+    {
+      "topic": "AI advancements",
+      "topic_id": "fb2ffca891",
+      "depth": 1,
+      "plan": {
+        "queries": [
+          "AI advancements latest news past 48 hours",
+          "AI advancements announcement OR launch OR unveils past 3 days",
+          "AI advancements breakthrough OR benchmark OR SOTA past week",
+          "AI advancements report OR analysis OR deep dive past week",
+          "AI advancements GitHub release OR repo trending past week"
+        ],
+        "rationale": "broad-first",
+        "expected_signals": []
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "Within the last 48 hours, several items hint at advances but lack strong, independently verified, peer-reviewed confirmation. Some links are from newsletters or blogs, and arXiv claims require cross-checking for replication or institutional confirmation. Need corroboration from primary sources, reputable outlets, or official releases.",
+        "next_focus": [
+          "Verify the ARC-AGI 87.5% claim: search for an official OpenAI post, benchmark leaderboard updates, or third-party replication (ARC public/AGI leaderboards, OpenAI blog, Anthropic/DeepMind commentary).",
+          "Corroborate the LLMs outperform experts on biology benchmarks: look for peer reviews, code/data release, institutions involved, and coverage by Nature/Science or major outlets.",
+          "Filter for authoritative news in last 48 hours on enterprise AI earnings/infra spend: seek SEC filings, earnings call transcripts, and analyst notes confirming AI-driven revenue/CapEx shifts."
+        ]
+      },
+      "found_raw": 23,
+      "kept": 23,
+      "dropped_old": 0,
+      "dropped_src": 0,
+      "ts": "2025-08-02T08:52:05"
+    }
+  ],
+  "summary": {
+    "topics": [
+      "AI advancements",
+      "technical innovations"
+    ],
+    "window": "last 48 hours",
+    "max_depth": 3,
+    "count": 10
+  }
+}

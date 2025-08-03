@@ -1,0 +1,196 @@
+{
+  "run_id": "2025-08-02",
+  "items": [
+    {
+      "item_id": "2025-08-02-1cfca0a80a",
+      "title": "Fluent System Icons",
+      "url": "https://github.com/microsoft/fluentui-system-icons",
+      "source": "github trending repositories",
+      "source_quality": "low",
+      "published_at": "2025-08-02",
+      "snippet": "A collection of familiar, friendly, and modern icons from Microsoft, designed to enhance user interfaces with a consistent and recognizable visual language.",
+      "topic": "technical innovations",
+      "depth": 1,
+      "tags": []
+    },
+    {
+      "item_id": "2025-08-02-b8129e1805",
+      "title": "Anthropic Cookbook",
+      "url": "https://github.com/anthropics/anthropic-cookbook",
+      "source": "github trending repositories",
+      "source_quality": "low",
+      "published_at": "2025-08-02",
+      "snippet": "A collection of notebooks and recipes showcasing effective ways to utilize Claude, an AI language model developed by Anthropic, for various applications.",
+      "topic": "technical innovations",
+      "depth": 1,
+      "tags": []
+    },
+    {
+      "item_id": "2025-08-02-7592adc74e",
+      "title": "Prompt Engineering Interactive Tutorial",
+      "url": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
+      "source": "github trending repositories",
+      "source_quality": "low",
+      "published_at": "2025-08-02",
+      "snippet": "An interactive tutorial by Anthropic designed to teach the principles and techniques of prompt engineering for AI language models.",
+      "topic": "technical innovations",
+      "depth": 1,
+      "tags": []
+    },
+    {
+      "item_id": "2025-08-02-b409dc7b84",
+      "title": "Awesome LLM Apps",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "source": "github trending repositories",
+      "source_quality": "low",
+      "published_at": "2025-08-02",
+      "snippet": "A curated list of impressive applications built using Large Language Models (LLMs), featuring AI agents and retrieval-augmented generation (RAG) techniques.",
+      "topic": "technical innovations",
+      "depth": 1,
+      "tags": []
+    },
+    {
+      "item_id": "2025-08-02-d7e9d48e24",
+      "title": "Immich",
+      "url": "https://github.com/immich-app/immich",
+      "source": "github trending repositories",
+      "source_quality": "low",
+      "published_at": "2025-08-02",
+      "snippet": "A high-performance, self-hosted photo and video management solution that offers features like automatic backups, sharing, and organization of media files.",
+      "topic": "technical innovations",
+      "depth": 1,
+      "tags": []
+    },
+    {
+      "item_id": "2025-08-02-7824bc907f",
+      "title": "LeRobot",
+      "url": "https://github.com/huggingface/lerobot",
+      "source": "github trending repositories",
+      "source_quality": "low",
+      "published_at": "2025-08-02",
+      "snippet": "A project by Hugging Face aimed at making AI for robotics more accessible through end-to-end learning solutions, facilitating the development of intelligent robotic systems.",
+      "topic": "technical innovations",
+      "depth": 1,
+      "tags": []
+    },
+    {
+      "item_id": "2025-08-02-e9d4a379ef",
+      "title": "File Browser",
+      "url": "https://github.com/gtsteffaniak/filebrowser",
+      "source": "github trending repositories",
+      "source_quality": "low",
+      "published_at": "2025-08-02",
+      "snippet": "A web-based file browser that allows users to manage and organize their files through a simple and intuitive interface, supporting various file operations.",
+      "topic": "technical innovations",
+      "depth": 1,
+      "tags": []
+    },
+    {
+      "item_id": "2025-08-02-b667acaf7e",
+      "title": "Desktop",
+      "url": "https://github.com/zen-browser/desktop",
+      "source": "github trending repositories",
+      "source_quality": "low",
+      "published_at": "2025-08-02",
+      "snippet": "A project focused on creating a calmer internet experience by developing a browser that minimizes distractions and promotes focused browsing.",
+      "topic": "technical innovations",
+      "depth": 1,
+      "tags": []
+    },
+    {
+      "item_id": "2025-08-02-9e8ed6b706",
+      "title": "Tech giants ramp up spending as AI starts to deliver",
+      "url": "https://www.axios.com/2025/08/01/ai-earnings-google-microsoft-meta-stocks",
+      "source": "axios",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "Microsoft, Google, and Meta are significantly increasing investments in data centers and computing infrastructure as AI begins to generate real revenue. Despite strong earnings, these companies are reinvesting heavily in AI infrastructure, signaling their belief that the AI boom is still in its early stages.",
+      "topic": "AI advancements",
+      "depth": 1,
+      "tags": []
+    },
+    {
+      "item_id": "2025-08-02-4125d63b6c",
+      "title": "Scientists create glowing artificial cells that pulse to 24-hour biological clock",
+      "url": "https://interestingengineering.com/innovation/scientists-create-glowing-artificial-cells-that-pulse-to-24-hour-biological-clock",
+      "source": "interesting engineering",
+      "source_quality": "low",
+      "published_at": "2025-08-01",
+      "snippet": "Artificial cells built at UC Merced pulse with a perfect 24-hour rhythm, just like the real thing.",
+      "topic": "technical innovations",
+      "depth": 1,
+      "tags": []
+    }
+  ],
+  "log": [
+    {
+      "topic": "AI advancements",
+      "topic_id": "fb2ffca891",
+      "depth": 1,
+      "plan": {
+        "queries": [
+          "AI advancements latest news past 48 hours",
+          "AI advancements announcement OR launch OR unveils past 3 days",
+          "AI advancements breakthrough OR benchmark OR SOTA past week",
+          "AI advancements report OR analysis OR deep dive past week",
+          "AI advancements GitHub release OR repo trending past week"
+        ],
+        "rationale": "broad-first",
+        "expected_signals": []
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "Current preview is a single Axios piece and outside the requested 48-hour window; need fresher, corroborated signals to judge novelty and credibility.",
+        "next_focus": [
+          "Earnings/transcripts in last 48h mentioning concrete AI deployment metrics (cost per inference, throughput gains, unit economics) from Nvidia, Microsoft, Google, Amazon",
+          "Peer‑reviewed or preprint breakthroughs posted in last 48h (arXiv, Nature, Science) with reproducible code/data for model efficiency, alignment, or multimodal capabilities",
+          "Regulatory or standards moves in last 48h (EU, US, China) that materially change AI deployment or safety requirements"
+        ]
+      },
+      "found_raw": 22,
+      "kept": 1,
+      "dropped_old": 21,
+      "dropped_src": 0,
+      "ts": "2025-08-02T08:59:32"
+    },
+    {
+      "topic": "technical innovations",
+      "topic_id": "c0b1fd010d",
+      "depth": 1,
+      "plan": {
+        "queries": [
+          "technical innovations latest news past 48 hours",
+          "technical innovations announcement OR launch OR unveils past 3 days",
+          "technical innovations breakthrough OR benchmark OR SOTA past week",
+          "technical innovations report OR analysis OR deep dive past week",
+          "technical innovations GitHub release OR repo trending past week"
+        ],
+        "rationale": "broad-first",
+        "expected_signals": []
+      },
+      "decision": {
+        "action": "deepen",
+        "reason": "Preview shows several promising items but sources are a single outlet and lack cross-verification or primary references; need to validate novelty/impact and filter hype.",
+        "next_focus": [
+          "site:arxiv.org OR site:nature.com OR site:science.org OR site:ieee.org validation of each headline topic within last 7 days (e.g., tandem perovskite 34.6% Longi efficiency, terahertz control of 2D semiconductors, energy-harvesting glass)",
+          "press releases or lab pages for originating institutions/companies (e.g., LONGi, university labs on circadian artificial cells, VR haptic glove manufacturer) within 48 hours",
+          "independent coverage from reputable tech/science outlets (MIT Technology Review, IEEE Spectrum, Nature News, Science News) to assess novelty and claims"
+        ]
+      },
+      "found_raw": 27,
+      "kept": 17,
+      "dropped_old": 10,
+      "dropped_src": 0,
+      "ts": "2025-08-02T09:00:42"
+    }
+  ],
+  "summary": {
+    "topics": [
+      "AI advancements",
+      "technical innovations"
+    ],
+    "window": "last 48 hours",
+    "max_depth": 3,
+    "count": 10
+  }
+}
