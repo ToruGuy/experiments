@@ -6,9 +6,9 @@ from __future__ import annotations
 import io
 import logging
 import os
-from typing import Awaitable, Protocol, Optional
+from typing import Awaitable, Optional, Protocol
 
-from telegram import Update, InputFile
+from telegram import InputFile, Update
 from telegram.constants import ChatAction
 from telegram.ext import (
     Application,
@@ -23,13 +23,16 @@ from pdf_service import PdfService
 
 log = logging.getLogger("communicator")
 
+
 class ReplyFn(Protocol):
     def __call__(self, text: str, chat_id: int | str | None, user_id: int | None) -> Awaitable[str]:
         ...
 
+
 class Communicator(Protocol):
     def start(self) -> None: ...
     def stop(self) -> None: ...
+
 
 def guess_name(default: str, supplied: Optional[str], fallback_ext: Optional[str] = None) -> str:
     if supplied:
@@ -38,13 +41,13 @@ def guess_name(default: str, supplied: Optional[str], fallback_ext: Optional[str
         return f"{default}.{fallback_ext.lstrip('.')}"
     return default
 
+
 class TelegramCommunicator:
     """
-    v21+ bot with:
+    Telegram bot with:
     - AI text replies
     - File storage
-    - Markdown->PDF via md2pdf with CSS themes (/pdf, /pdf_toruai, /pdf_bentfly)
-    Also accepts hyphenated variants typed by users by parsing text manually.
+    - Markdown -> PDF conversion
     """
 
     def __init__(self, token: str, reply_fn: ReplyFn, storage_dir: Optional[str] = "./storage") -> None:
@@ -52,19 +55,16 @@ class TelegramCommunicator:
         self._reply_fn = reply_fn
         self._app: Application = Application.builder().token(self._token).build()
         self._storage = LocalStorage(storage_dir or "./storage")
-        self._pdf = PdfService(self._storage, themes_dir="./css", storage_subdir="md2pdf")
+        self._pdf = PdfService(self._storage, storage_subdir="md2pdf")
 
-        # Commands (use underscores only; hyphens are invalid) per PTB docs [docs.python-telegram-bot.org](https://docs.python-telegram-bot.org/en/v21.5/telegram.ext.commandhandler.html)
+        # Commands
         self._app.add_handler(CommandHandler("start", self._start_cmd))
         self._app.add_handler(CommandHandler("help", self._help_cmd))
         self._app.add_handler(CommandHandler("files", self._files_cmd))
         self._app.add_handler(CommandHandler("get", self._get_cmd))
         self._app.add_handler(CommandHandler("del", self._del_cmd))
         self._app.add_handler(CommandHandler("see", self._see_cmd))
-
         self._app.add_handler(CommandHandler("pdf", self._pdf_cmd))
-        self._app.add_handler(CommandHandler("pdf_toruai", self._pdf_toruai_cmd))
-        self._app.add_handler(CommandHandler("pdf_bentfly", self._pdf_bentfly_cmd))
 
         # Files/media
         self._app.add_handler(MessageHandler(filters.Document.ALL, self._on_document))
@@ -73,10 +73,8 @@ class TelegramCommunicator:
         self._app.add_handler(MessageHandler(filters.AUDIO, self._on_audio))
         self._app.add_handler(MessageHandler(filters.VOICE, self._on_voice))
 
-        # Text: includes fallback for hyphenated “commands” typed by users
+        # Text messages
         self._app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, self._on_text))
-        # Additionally, capture messages that look like commands but with hyphens
-        self._app.add_handler(MessageHandler(filters.TEXT & filters.Regex(r"^/(pdf\-toruai|pdf\-bentfly)\b"), self._on_hyphen_command))
 
         self._app.add_error_handler(self._on_error)
 
@@ -87,20 +85,17 @@ class TelegramCommunicator:
             "- Send a file to store it.\n"
             "- /files to list, /get <id> to retrieve, /del <id> to delete, /see <id>.\n"
             "- Markdown → PDF:\n"
-            "    /pdf <markdown>\n"
-            "    /pdf_toruai <markdown>\n"
-            "    /pdf_bentfly <markdown>\n"
-            "    Or upload a .md file to auto-convert.\n"
-            "Tip: If you type /pdf-toruai, I’ll still handle it."
+            "    /pdf [css=<file_id>] [name=<output.pdf>] <markdown>\n"
+            "    Or upload a .md file to auto-convert."
         )
 
     async def _help_cmd(self, update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         await update.message.reply_text(
             "Storage: /files, /get <id>, /del <id>, /see <id>\n"
             "Markdown → PDF:\n"
-            "/pdf TEXT (default CSS)\n/pdf_toruai TEXT\n/pdf_bentfly TEXT\n"
+            "/pdf [css=<file_id>] [name=<output.pdf>] <markdown>\n"
             "Or upload a .md file and I’ll convert.\n"
-            "Note: Telegram commands use letters/digits/underscores only per PTB [docs.python-telegram-bot.org](https://docs.python-telegram-bot.org/en/v21.5/telegram.ext.commandhandler.html)."
+            "Note: Telegram commands use letters/digits/underscores only."
         )
 
     # ---------- Storage commands ----------
@@ -172,52 +167,47 @@ class TelegramCommunicator:
 
     # ---------- PDF commands ----------
     async def _pdf_cmd(self, update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-        await self._handle_pdf_text(update, context, theme=None)
+        await self._handle_pdf_text(update, context)
 
-    async def _pdf_toruai_cmd(self, update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-        await self._handle_pdf_text(update, context, theme="toruai")
-
-    async def _pdf_bentfly_cmd(self, update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-        await self._handle_pdf_text(update, context, theme="bentfly")
-
-    async def _handle_pdf_text(self, update: Update, context: ContextTypes.DEFAULT_TYPE, theme: Optional[str]) -> None:
+    async def _handle_pdf_text(self, update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         text = (update.message.text or "").strip()
         parts = text.split(maxsplit=1)
-        md_text = parts[1] if len(parts) > 1 else ""
+        args_str = parts[1] if len(parts) > 1 else ""
+        tokens = args_str.split()
+        md_tokens: list[str] = []
+        css_id: Optional[str] = None
+        output_name: Optional[str] = None
+        for tok in tokens:
+            if tok.startswith("css="):
+                css_id = tok.split("=", 1)[1]
+            elif tok.startswith("name="):
+                output_name = tok.split("=", 1)[1]
+            else:
+                md_tokens.append(tok)
+        md_text = " ".join(md_tokens)
         if not md_text:
-            await update.message.reply_text("Usage: /pdf <markdown text>\nOr upload a .md file.")
+            await update.message.reply_text(
+                "Usage: /pdf [css=<file_id>] [name=<output.pdf>] <markdown text>\nOr upload a .md file."
+            )
             return
         await update.message.chat.send_action(ChatAction.TYPING)
         try:
             md_file, pdf_file = await self._pdf.convert_markdown_text(
                 md_text=md_text,
-                theme_name=theme,
+                css_file_id=css_id,
+                output_name=output_name,
                 base_url=os.getcwd(),
                 inferred_name="pasted.md",
             )
+        except FileNotFoundError:
+            await update.message.reply_text("CSS file not found in storage.")
+            return
         except Exception as e:
             log.exception("md2pdf conversion failed")
             await update.message.reply_text(f"PDF conversion failed: {e}")
             return
         await update.message.reply_text(f"Saved markdown: {md_file.file_id} ({md_file.orig_name})")
         await self._send_pdf(update, pdf_file)
-
-    async def _on_hyphen_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-        """
-        Handle user-typed hyphenated variants like '/pdf-toruai text' by redirecting to the underscore handler.
-        """
-        if not update.message or not update.message.text:
-            return
-        text = update.message.text
-        if text.startswith("/pdf-toruai"):
-            # Replace only the command part
-            transformed = text.replace("/pdf-toruai", "/pdf_toruai", 1)
-            update.message.text = transformed
-            await self._pdf_toruai_cmd(update, context)
-        elif text.startswith("/pdf-bentfly"):
-            transformed = text.replace("/pdf-bentfly", "/pdf_bentfly", 1)
-            update.message.text = transformed
-            await self._pdf_bentfly_cmd(update, context)
 
     async def _send_pdf(self, update: Update, pdf_file_meta) -> None:
         data = await self._storage.read_bytes(pdf_file_meta.file_id)
@@ -235,14 +225,6 @@ class TelegramCommunicator:
     async def _on_text(self, update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         if not update.message or not update.message.text:
             return
-        # If it's a hyphenated command without args handler catching it (e.g., bot mentioned), try to normalize
-        if update.message.text.startswith("/pdf-toruai"):
-            await self._on_hyphen_command(update, context)
-            return
-        if update.message.text.startswith("/pdf-bentfly"):
-            await self._on_hyphen_command(update, context)
-            return
-
         text = update.message.text
         chat_id = update.effective_chat.id if update.effective_chat else None
         user_id = update.effective_user.id if update.effective_user else None
@@ -272,7 +254,8 @@ class TelegramCommunicator:
                 md_file, pdf_file = await self._pdf.convert_markdown_file_bytes(
                     md_data=bytes(data),
                     orig_filename=fname,
-                    theme_name=None,
+                    css_file_id=None,
+                    output_name=None,
                     base_url=os.getcwd(),
                 )
             except Exception as e:
@@ -337,4 +320,12 @@ class TelegramCommunicator:
         self._app.run_polling()
 
     def stop(self) -> None:
-        pass
+        log.info("Stopping Telegram bot")
+        try:
+            self._app.stop()
+        finally:
+            try:
+                self._app.shutdown()
+            except Exception:
+                pass
+
