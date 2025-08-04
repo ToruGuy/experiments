@@ -181,17 +181,30 @@ class PdfService:
                 except TypeError:
                     pass
 
-            # Attempt 5: md_content -> output_path
+            # Attempt 5: md_content -> output_path (handle varying raw kw)
             if not used:
-                try:
-                    content = [md_data.decode("utf-8")]
-                    if css_list:
-                        md2pdf(output_path=str(pdf_path), md_content=content, stylesheets=css_list, base_url=base)
-                    else:
-                        md2pdf(output_path=str(pdf_path), md_content=content, base_url=base)
-                    used = True
-                except TypeError as e:
-                    raise TypeError(f"Incompatible md2pdf version/API: {e}")
+                content = [md_data.decode("utf-8")]
+                base_kwargs = {
+                    "output_path": str(pdf_path),
+                    "md_content": content,
+                    "base_url": base,
+                }
+                if css_list:
+                    base_kwargs["stylesheets"] = css_list
+                for raw_flag in (None, False, True):
+                    try:
+                        kwargs = dict(base_kwargs)
+                        if raw_flag is not None:
+                            kwargs["raw"] = raw_flag
+                        md2pdf(**kwargs)
+                        used = True
+                        break
+                    except TypeError:
+                        continue
+                if not used:
+                    raise TypeError(
+                        "Incompatible md2pdf version/API: md_content output unsupported"
+                    )
 
             return pdf_path.read_bytes()
 
