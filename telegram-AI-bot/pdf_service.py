@@ -4,67 +4,36 @@
 from __future__ import annotations
 
 import asyncio
-import io
 import os
 import tempfile
-from dataclasses import dataclass
 from pathlib import Path
 from typing import Optional, Tuple
 
 from storage import LocalStorage, StoredFile
-
-# md2pdf relies on WeasyPrint
 from md2pdf.core import md2pdf
 
-@dataclass
-class CssTheme:
-    name: str
-    css_path: Optional[Path]  # None = no custom CSS
 
 class PdfService:
     """
-    Markdown -> PDF via md2pdf with CSS themes.
-    Saves both the markdown source and resulting PDF via LocalStorage under storage/md2pdf/.
+    Markdown -> PDF via md2pdf.
+
+    Saves both the markdown source and resulting PDF via LocalStorage
+    under storage/md2pdf/.
     """
 
     def __init__(
         self,
         storage: LocalStorage,
-        themes_dir: str | Path = "./css",
         storage_subdir: str = "md2pdf",
-        default_theme_name: str = "default",
     ) -> None:
         self._storage = storage
-        self._themes_dir = Path(themes_dir)
         self._subdir = storage_subdir
-        self._themes: dict[str, CssTheme] = self._load_themes(default_theme_name)
-        self._default_theme_name = default_theme_name
-
-    def _load_themes(self, default_theme_name: str) -> dict[str, CssTheme]:
-        mapping = {
-            "default": None,                 # use md2pdf/weasyprint defaults
-            "toruai": self._themes_dir / "toruai.css",
-            "bentfly": self._themes_dir / "bentfly.css",
-        }
-        themes: dict[str, CssTheme] = {}
-        for name, path in mapping.items():
-            css_path = Path(path) if path else None
-            if css_path is not None and not css_path.exists():
-                css_path = None  # if CSS missing, fall back gracefully
-            themes[name] = CssTheme(name=name, css_path=css_path)
-        if default_theme_name not in themes:
-            themes[default_theme_name] = CssTheme(name=default_theme_name, css_path=None)
-        return themes
-
-    def _pick_theme(self, theme_name: Optional[str]) -> CssTheme:
-        if not theme_name:
-            return self._themes[self._default_theme_name]
-        return self._themes.get(theme_name, self._themes[self._default_theme_name])
 
     async def convert_markdown_text(
         self,
         md_text: str,
-        theme_name: Optional[str],
+        css_file_id: Optional[str] = None,
+        output_name: Optional[str] = None,
         base_url: Optional[str] = None,
         inferred_name: str = "document.md",
     ) -> Tuple[StoredFile, StoredFile]:
@@ -78,14 +47,21 @@ class PdfService:
             orig_name=f"{self._subdir}-{inferred_name}",
             mime_type="text/markdown",
         )
-        pdf_file = await self._render_pdf_from_bytes(md_bytes, md_file.orig_name, theme_name, base_url)
+        pdf_file = await self._render_pdf_from_bytes(
+            md_bytes,
+            inferred_name,
+            css_file_id,
+            base_url,
+            output_name,
+        )
         return md_file, pdf_file
 
     async def convert_markdown_file_bytes(
         self,
         md_data: bytes,
         orig_filename: str,
-        theme_name: Optional[str],
+        css_file_id: Optional[str] = None,
+        output_name: Optional[str] = None,
         base_url: Optional[str] = None,
     ) -> Tuple[StoredFile, StoredFile]:
         """
@@ -98,23 +74,37 @@ class PdfService:
             orig_name=f"{self._subdir}-{safe_name}",
             mime_type="text/markdown",
         )
-        pdf_file = await self._render_pdf_from_bytes(md_data, md_file.orig_name, theme_name, base_url)
+        pdf_file = await self._render_pdf_from_bytes(
+            md_data,
+            safe_name,
+            css_file_id,
+            base_url,
+            output_name,
+        )
         return md_file, pdf_file
 
     async def _render_pdf_from_bytes(
         self,
         md_data: bytes,
         markdown_name: str,
-        theme_name: Optional[str],
+        css_file_id: Optional[str],
         base_url: Optional[str],
+        output_name: Optional[str],
     ) -> StoredFile:
         """
-        Render using md2pdf by writing a temp .md and producing a temp .pdf, then saving bytes to storage.
-        This avoids relying on md2pdf's function signature variations.
+        Render using md2pdf by writing a temp .md and producing a temp .pdf,
+        then saving bytes to storage.
         """
-        theme = self._pick_theme(theme_name)
-        pdf_bytes = await asyncio.to_thread(self._md2pdf_via_disk, md_data, theme, base_url)
-        pdf_name = os.path.splitext(markdown_name)[0] + ".pdf"
+        css_bytes: Optional[bytes] = None
+        if css_file_id:
+            css_bytes = await self._storage.read_bytes(css_file_id)
+            if css_bytes is None:
+                raise FileNotFoundError(f"CSS file {css_file_id} not found in storage")
+
+        pdf_bytes = await asyncio.to_thread(
+            self._md2pdf_via_disk, md_data, css_bytes, base_url
+        )
+        pdf_name = output_name or os.path.splitext(markdown_name)[0] + ".pdf"
         stored_pdf = await self._storage.save_bytes(
             data=pdf_bytes,
             orig_name=f"{self._subdir}-{pdf_name}",
@@ -122,65 +112,86 @@ class PdfService:
         )
         return stored_pdf
 
-    def _md2pdf_via_disk(self, md_data: bytes, theme: CssTheme, base_url: Optional[str]) -> bytes:
-        # Prepare temp files
+
+    def _md2pdf_via_disk(
+        self, md_data: bytes, css_bytes: Optional[bytes], base_url: Optional[str]
+    ) -> bytes:
         with tempfile.TemporaryDirectory() as td:
             tdir = Path(td)
             md_path = tdir / "input.md"
             pdf_path = tdir / "output.pdf"
             md_path.write_bytes(md_data)
 
-            # Try calling md2pdf with different supported signatures:
-            # Newer versions: md2pdf(input_file=..., output_file=..., stylesheets=[...], base_url=...)
-            # Some versions:  md2pdf(input_file=..., output_path=..., css_file_path=[...], base_url=...)
-            css_list = [str(theme.css_path)] if theme.css_path else None
-            used = False
+            css_path = None
+            if css_bytes:
+                css_path = tdir / "style.css"
+                css_path.write_bytes(css_bytes)
 
-            # Attempt 1: input_file/output_file
+            css_path_str = str(css_path) if css_path else None
+            css_list = [css_path_str] if css_path_str else None
+            used = False
+            base = base_url or str(md_path.parent)
+
+            # Attempt 1: pdf_file_path/md_file_path
             try:
                 md2pdf(
-                    input_file=str(md_path),
-                    output_file=str(pdf_path),
-                    stylesheets=css_list,
-                    base_url=base_url or str(md_path.parent),
+                    pdf_file_path=str(pdf_path),
+                    md_file_path=str(md_path),
+                    css_file_path=css_path_str,
+                    base_url=base,
                 )
                 used = True
             except TypeError:
                 pass
 
-            # Attempt 2: input_file/output_path/css_file_path
+            # Attempt 2: keyword arguments (input_file/output_file)
+            if not used:
+                try:
+                    md2pdf(
+                        input_file=str(md_path),
+                        output_file=str(pdf_path),
+                        stylesheets=css_list,
+                        base_url=base,
+                    )
+                    used = True
+                except TypeError:
+                    pass
+
+            # Attempt 3: keyword arguments (input_file/output_path/css_file_path)
             if not used:
                 try:
                     md2pdf(
                         input_file=str(md_path),
                         output_path=str(pdf_path),
                         css_file_path=css_list,
-                        base_url=base_url or str(md_path.parent),
+                        base_url=base,
                     )
                     used = True
                 except TypeError:
                     pass
 
-            # Attempt 3: positional (input, output)
+            # Attempt 4: positional (input, output)
             if not used:
                 try:
                     if css_list:
-                        md2pdf(str(md_path), str(pdf_path), stylesheets=css_list, base_url=base_url or str(md_path.parent))
+                        md2pdf(str(md_path), str(pdf_path), stylesheets=css_list, base_url=base)
                     else:
-                        md2pdf(str(md_path), str(pdf_path), base_url=base_url or str(md_path.parent))
+                        md2pdf(str(md_path), str(pdf_path), base_url=base)
                     used = True
                 except TypeError:
                     pass
 
+            # Attempt 5: md_content -> output_path
             if not used:
-                # Last resort: md_content -> output_path
                 try:
+                    content = [md_data.decode("utf-8")]
                     if css_list:
-                        md2pdf(output_path=str(pdf_path), md_content=[md_data.decode("utf-8")], stylesheets=css_list, base_url=base_url or str(md_path.parent))
+                        md2pdf(output_path=str(pdf_path), md_content=content, stylesheets=css_list, base_url=base)
                     else:
-                        md2pdf(output_path=str(pdf_path), md_content=[md_data.decode("utf-8")], base_url=base_url or str(md_path.parent))
+                        md2pdf(output_path=str(pdf_path), md_content=content, base_url=base)
                     used = True
                 except TypeError as e:
                     raise TypeError(f"Incompatible md2pdf version/API: {e}")
 
             return pdf_path.read_bytes()
+
